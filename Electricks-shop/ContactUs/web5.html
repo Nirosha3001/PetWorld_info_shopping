@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding ="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD//XHTML 1.1//EN" "http://www.w3.org/TR/DTD/xhtml11,dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+</head>
+<body>
+    <script type="text/javascript">
+
+var nameList = prompt("Enter the name");
+var x = "";
+var name = nameList;
+if (/^[a-zA-Z]+,\s[a-zA-Z]+,\s[A-Z]$/.test(name)) {
+        x = "Legal name";
+}
+else{
+        x = "Illegal name";
+}
+
+document.write(x);
+
+</script>
+</body>
+</html>

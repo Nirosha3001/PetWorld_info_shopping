@@ -1,0 +1,295 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.bgimage{
+    background-image:url(../s2.jpg);
+    background-size:100% 100%;
+    width: 100%;
+    height:110vh;
+}
+.menu{
+    width:100%;
+    height: 62px;
+    background-color:rgba(0,0,0,0.4);
+
+}
+.leftmenu{
+    width:20%;
+    line-height:70px;
+    float:left;
+
+}
+/*.leftmenu{
+    padding-left:70px;
+    font-weight:bold;
+    color:whitesmoke;
+    font-size:22px;
+    font-family:'Candal', sans-serif;
+
+}*/
+.logo{
+    padding-left:40px;
+    height: 80px;
+    margin: 10px 10px;
+  }
+.rightmenu {
+    width:70%;
+    height:100px;
+    float:right;
+   /* background-color:red; */
+}
+
+/*cut */
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    padding: 20px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:rgba(0,0,0,0.4);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: rgba(0,0,0,0.4);}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: rgba(0,0,0,0.6);}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*till here */
+.nav ul li  {
+    font-family: 'Lora', sans-serif;
+    display:inline-block;
+    list-style: none;
+    font-size:20px;
+    color:white;
+    font-weight: bold;
+    line-height:100px;
+    margin-left:40px;
+
+}
+header ul{
+    float: right;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+ 
+}
+header ul li{
+    float:left;
+    position: relative;
+}
+header ul li ul{
+    position: absolute;
+    top: 70px;
+    right: 0px;
+    width: 180px;
+    display:none;
+}
+header ul li :hover ul {
+    display: block;
+
+}
+header ul li ul li{
+    width: 100%;
+
+}
+header ul li ul a{
+    padding: 8px;
+    color: black;
+    background:white
+}
+
+
+header ul li a:hover{
+    background:rgba(0,0,0,0.3);
+}
+header ul li a {
+    display: block;
+    padding: 21px;
+    font-size: 2m;
+    color: white;
+    
+    
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* till heree */
+#firstlist{
+    color:white;
+}
+header ul li a:hover{
+    color:white;
+
+}
+
+.text{
+    width:100%;
+    margin-top:185px;
+    text-transform: uppercase;
+    text-align:center;
+    color:whitesmoke;    /*change the middle one color here after changing background*/
+    /*font-family: 'Permanent Marker', ;*/
+    font-family: 'Akronim', ;
+}
+.text h4{
+   border:none;
+    background-color:rgba(0,0,0,0.4);
+    font-size:17px;  
+    /*change the font if u want font-family */
+    font-weight:700px;
+    margin:14px 0px;
+      font-family: 'Caveat', ;
+      line-height:40px;
+      width:200px;
+      height:200x;
+    color:white;    
+      border:1px solid black;
+
+}
+.text h2{
+    border:none;
+    background-color:rgba(0,0,0,0.4);
+    font-size: 30px;
+    font-weight:700px;
+      /*change the font if u want font-family */
+      margin:14px 0px;
+      font-family: 'Caveat', ;
+      line-height:40px;
+      
+      height:200x;
+    color:white;  
+    margin-top:25px;  
+      border:1px solid black;
+      orientation: center;
+
+
+
+
+}
+
+
+.text h3{
+    border:none;
+    background-color:rgba(0,0,0,0.4);
+    font-size:20px;
+    /*change the font if u want font-family */
+    color:white;  
+    margin-top:25px;  
+      border:1px solid black;
+}
+#button1 a{
+    text-decoration: none;
+    color:black
+}
+#button1 {
+    
+    background-color:white;
+    border:none;
+    font-size:12px;
+    font-weight:bold;
+    text-transform:uppercase;
+    /*change the font if u want font-family */
+    line-height:40px;
+    width:150px;
+    margin-top:25px;
+    border:3px solid white;
+
+
+}
+#button2 a{
+    text-decoration:none;
+    color:white;
+}
+
+#button2{
+    background-color:rgba(0,0,0,0.4);
+    border:none;
+    /*change the font if u want font-family */
+    text-transform:uppercase;
+    font-weight:bold;
+    line-height:40px;
+    border:3px solid white;
+    width:150px;
+    color:white;
+    
+
+
+
+
+
+
+
+
+
+}

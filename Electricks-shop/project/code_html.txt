@@ -1,0 +1,219 @@
+<html>
+<head>
+    <title>Explore_Animals</title>
+    <link rel="stylesheet" href="dog.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+   
+   <div class="page-wrapper">
+   <div class="post-slider">
+    <div class="top-nav-bar"> 
+    <div class="search-box">
+    <img src="../logo.jpeg" class="logo">
+       <h1 class="slider-title"> &OpenCurlyDoubleQuote;<u> Trending Dogs </u>&CloseCurlyDoubleQuote;</h1>
+   </div>
+      <!--  <i class="fas fa-chevron-left prev"></i>
+     <i class="fas fa-chevron-right next"></i>-->
+        <i class="fa fa-angle-left next" style="font-size:48px;color:lightseagreen"></i>
+        <i class="fa fa-angle-right prev" style="font-size:48px;color:lightseagreen"></i>
+        <div class="icon">
+            <a href="https://www.facebook.com"target="new"><img src="../facebook.png"></a>
+            <a href="https://gmail.com"target="new"><img src="../gmail.jpg"></a>
+            <a href="https://www.pinterest.com/"target="new"><img src="../p.png"></a>
+            <a href="https://tumblr.com"target="new"><img src="../t.jpg"></a>
+            <a href="https://twitter.com"target="new"><img src="../Tw.png"></a>
+            <a href="https://www.instagram.com"target="new"><img src="../insta.png"></a>
+            <a href="#"><img src="../s11.jpg"></a>
+          </div>
+
+
+       
+        
+        <div class="post-wrapper">
+
+          
+            <div class="post">
+                <img src="../French-Bulldog-2-3.jpg" alt=" " class="slider-image">
+                <div class="post-info">
+                    <h3><a href="dog.html"> <pre>    Mindblowing Facts!</pre></a></h3>
+                    <i class="far fa-user"><b>French Bulldog</b></i>
+                    &nbsp;
+                   <!-- <i class="fa fa-heart"><b>Pet World!</b></i>-->
+                    <i class="fa fa-calendar"> <b>feb 28 2020</b></i>
+                    <!--<i class="far fa calender"> Pet World, feb 28 2020</i>-->
+                </div>
+            </div>
+            <div class="post">
+                <img src="../Yorkshire-Terrier-2-2.jpg" alt=" " class="slider-image">
+                <div class="post-info">
+                    <h3><a href="dog.html"> <pre>    Mindblowing Facts!</pre></a></h3>
+                    <i class="far fa-user"><b>    Yorkshire Terrier</b></i>
+                   
+                    &nbsp;
+                   <!--<i class="fa fa-heart"><b>Pet World!</b></i>-->
+                    <i class="fa fa-calendar"> <b>feb 28 2020</b></i>
+                </div>
+            </div>
+            <div class="post">
+                <img src="../Shih-Tzu-2.jpg" alt=" " class="slider-image">
+                <div class="post-info">
+                    <h3><a href="dog.html"> <pre>       Mindblowing Facts!</pre></a></h3>
+                    <i class="far fa-user"><b>Shih Tzu</b></i>
+                    &nbsp;
+                  <!--  <i class="fa fa-heart"><b>Pet World!</b></i>-->
+                    <i class="fa fa-calendar"> <b>feb 28 2020</b></i>
+                </div>
+            </div>
+            <div class="post">
+                <img src="../Golden-Retriever-2.jpg" alt=" " class="slider-image">
+                <div class="post-info">
+                    <h3><a href="dog.html"> <pre>       Mindblowing Facts !</pre></a></h3>
+                  
+                    <i class="far fa-user"><b>Golden Retreiver</b></i>
+                    &nbsp;
+                   <i class="fa fa-heart"><b>Pet World!</b></i>
+                 <i class="fa fa-calendar"><b>feb 28 2020</b></i>
+                </div>
+            </div>
+            <div class="post">
+                <img src="../Poodle-2-2.jpg" alt=" " class="slider-image">
+                <div class="post-info">
+                    <h3><a href="dog.html"> <pre>       Mindblowing Facts!</pre></a></h3>
+                    <i class="far fa-user"><b>Poodle</b></i>
+                    &nbsp;
+                   <!-- <i class="fa fa-heart"><b>Pet World!   </b></i>-->
+                    <i class="fa fa-calendar"> <b>feb 28 2020</b></i>
+                </div>
+            </div>
+
+
+        
+       </div>
+
+   </div>
+</div>  
+    <div class="content clearfix">
+
+        <div class="main-content">
+            <h1 class="recent-post-title">Recent Post</h1>
+            <div class="post">
+                <img src="../2015-01-28-Dogsofhomelessone.jpg" alt=" " class="post-image">
+                <div class="post-preview">
+                    <h1><a href="f.html">An interesting story of cute pets</a></h1>
+                    <i class="fa fa-user">Pet World</i>
+                    &nbsp;
+                    <i class="fa fa-calendar"> feb 28 2020</i>
+                    <p class="preview text">To embed your selected fonts into a webpage, 
+                        copy this code into the <head> of your HTML document.
+                    </p>
+                    <a href="g.html"  class="btn read-more">Read More</a>
+                </div>
+            </div>
+            <div class="post">
+                <img src="../Golden-Retriever-2.jpg" alt=" " class="post-image">
+                <div class="post-preview">
+                    <h1><a href="f.html">An interesting story of cute pets</a></h1>
+                    <i class="fa fa-user">Pet World</i>
+                    &nbsp;
+                    <i class="fa fa-calendar"> feb 28 2020</i>
+                    <p class="preview text">To embed your selected fonts into a webpage, 
+                        copy this code into the <head> of your HTML document.
+                    </p>
+                    <a href="g.html"  class="btn read-more">Read More</a>
+                </div>
+            </div>
+            <div class="post">
+                <img src="../2015-01-28-Dogsofhomelessone.jpg" alt=" " class="post-image">
+                <div class="post-preview">
+                    <h1><a href="f.html">
+                        Family clones beloved dog  to hero pet</a></h1>
+                    <i class="fa fa-user">Pet World</i>
+                    &nbsp;
+                    <i class="fa fa-calendar"> feb 28 2020</i>
+                    <p class="preview text">A beloved pet dog, who once saved his pregnant owner from potentially .
+                        
+                    </p>
+                    <a href="g.html"  class="btn read-more">Read More</a>
+                </div>
+            </div>
+          <!-- <div class="post">
+                <img src="../Golden-Retriever-2.jpg" alt=" " class="post-image">
+                <div class="post-preview">
+                    <h1><a href="f.html">An interesting story of cute pets</a></h1>
+                    <i class="fa fa-user">Pet World</i>
+                    &nbsp;
+                    <i class="fa fa-calendar"> feb 28 2020</i>
+                    <p class="preview text">To embed your selected fonts into a webpage, 
+                        copy this code into the <head> of your HTML document.
+                    </p>
+                    <a href="g.html"  class="btn read-more">Read More</a>
+                </div>
+            </div>--> 
+
+
+        </div>
+        <div class="sidebar">
+            <div class="section search">
+                <h1 class="section-title">Search</h1>
+                <form action="dog.html" method="post">
+                    <input type="text" name="search-term" class="text-input" placeholder="Search...">
+                </form>
+            </div>
+            <div class="section topics">
+                <h1 class="section-title">Topics</h1>
+                <ul>
+                    <li><a href=""#>Find</a></li>
+                    <li><a href=""#>tips</a></li>
+                    <li><a href=""#>Read</a></li>
+                    <li><a href=""#>Intersting</a></li>
+                    <li><a href=""#>Consult</a></li>
+                </ul>
+            </div>
+         </div>
+    </div>
+
+</div>
+
+
+<!--Footer-->
+<div class="footer">
+    <div class="footer-content">
+        <div class="footer-section about"></div>
+        <div class="footer-section links"></div>
+        <div class="footer-section contact-form"></div>
+    </div>
+
+    <div class="footer-bottom">
+
+        &copy; petworld.com | designed by PetWorld
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+   
+   
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+   <script type="text/javascript" src="s.js">
+    
+   </script>
+   
+</body>
+
+
+
+      
+      
+
+
+</html>

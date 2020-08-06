@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding ="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD//XHTML 1.1//EN" "http://www.w3.org/TR/DTD/xhtml11,dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+</head>
+<body>
+    <script type="text/javascript">
+        let activities = [
+    [10, 9],
+    [2, 1],
+    [5, 56],
+    [7, 2],
+    [8, 7]
+];
+  
+function row_averages(matrix){
+var averages = matrix.map(row => row.reduce((a,b)=>a+b)/row.length);
+var result = averages.map((avg,i)=> `Row ${i+1} Average is ${avg}.`)
+//document.write(result.join('\n'));
+document.write(averages)
+var keys = [];
+
+for (var number in numbers) {
+  if (averages.hasOwnProperty(number)) {
+    keys.push(number);
+  }
+}
+    return keys;
+}
+document.write(row_averages(activities));
+</script>
+</body>
+</html>

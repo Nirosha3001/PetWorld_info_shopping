@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h2{
+  border: 2px solid black;
+  outline: #4CAF50 solid 10px;
+  margin: auto;  
+  padding: 20px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<h2>French Bulldog</h2>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>frenchi</title>
+    <style>
+      * {box-sizing: border-box}
+      body {
+      font-family: Verdana, sans-serif; 
+      margin:0
+      }
+      .mySlides {display: none}
+      img {vertical-align: left;}
+      .slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      margin: auto;
+      }
+      /* Next & previous buttons */
+      .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.9s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+      }
+      /* Position the "next button" to the right */
+      .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+      }
+      /* On hover, add a black background color with a little bit see-through */
+      .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0.8);
+      }
+      /* Caption text */
+      .text {
+      color: #ffffff;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 40%;
+      text-align: center;
+      }
+      /* Number text (1/3 etc) */
+      .numbertext {
+      color: #ffffff;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+      }
+      /* The dots/bullets/indicators */
+      .dot {
+      cursor: pointer;
+      height: 4px;
+      width: 4px;
+      margin: 0 2px;
+      background-color: #999999;
+      border-radius: 60%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+      }
+      .active, .dot:hover {
+      background-color: #111111;
+      }
+      /* Fading animation */
+      .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 3.5s;
+      animation-name: fade;
+      animation-duration: 3.5s;
+      }
+      @-webkit-keyframes fade {
+      from {opacity: .3} 
+      to {opacity: 1}
+      }
+      @keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+      }
+      /* On smaller screens, decrease text size */
+      @media only screen and (max-width: 100px) {
+      .prev, .next,.text {font-size: 11px}
+      }
+    </style>
+  </head>
+  <body>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+      <center>  <img src="C:\Users\Hp\Downloads\gold2.JPG" style="width:60%" "height=80%"></center>
+        <div class="text">..............Puppies</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+    <center> <img src="C:\Users\Hp\Downloads\gold4.JPG" style="width:60%" "height=80%"> </center>
+        <div class="text">.......................................middle-aged golden dark retriver</div> 
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+      <center> <img src="C:\Users\Hp\Downloads\gold8.gif" style="width:60%" "height=80%"></center>
+        <div class="text">....................................will not harm other breads!</div>
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+    <script>
+      var slideIndex = 0;
+      showSlides();
+      
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none"; 
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1} 
+        slides[slideIndex-1].style.display = "block"; 
+        setTimeout(showSlides, 4000); 
+      }
+
+    </script>
+  </body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.center {
+  margin: auto;
+  width: 60%;
+  border: 0px solid #73AD21;
+  padding: 10px;
+}
+</style>
+</head>
+<body>
+
+
+<div class="center">
+  <p><b>The French Bulldog</b>is a breed of domestic dog. They are the result of a cross between Toy Bulldogs imported from England and local ratters in Paris, France, in the 1800s.[3] 
+The breed is popular as a pet; in 2018, they were the most popular registered dog in the United Kingdom,[4] and in the U.S., the fourth-most popular AKC-registered dog breed.[5] They were rated the third-most popular dog in Australia in 2017.[6] The French Bulldog also had 260 export pedigrees in the United Kingdom[7] and a total of 36,785 of registered French Bulldogs in the United Kingdom in the past decade.[8].</p>
+  
+<p>The New Complete Dog Book: Official Breed Standards and All-New Profiles for 200 Breeds, 21st Edition, is an official publication of the American Kennel Club and sets forth the Official Breed Standard for all breeds recognized by the AKC. Its specifications for the French Bulldog state that it should be muscular, with a soft and loose coat forming wrinkles.[11] Some other breed characteristics and standards follow in this section in the next paragraph.</p><p>
+The AKC Standard weight for a French Bulldog is maximum 28 pounds.[19] The head of a french bulldog should be square shaped and large along with ears that symbolized bat ears.[19] French bulldogs are also known as a flat faced breed.[20] <br>Eyes that are AKC Standard approved for French Bulldogs are dark and almost to the point of being black.[19] Blue eyed french bulldogs are not AKC approved.[19] The coat of a french bulldog should short haired and fine and silky.[21] Acceptable colors under the breed standard are the various shades of brindle, fawn, cream or white with brindle patches (known as "pied"). </p><p>The fawn colors can be any light through red.[19] The most common colors are brindle, then fawn, with pieds being less common than the other colors.[22] The breed clubs do not recognize any other colors or patterns.[19] This is because some colors come linked with genetic health problems not usually found in the breed. These include blue coloration, which is linked with a form of alopecia (hair loss or baldness), sometimes known as "Blue Dog Alopecia".[23] <br>Although this is heavily disputed by some organizations,[24] it has been suggested that the health, hair and skin conditions are caused by the color pigment (melanin) clumping in the hair shaft itself.[25] Even dogs that are not blue can develop "blue dog alopecia" or canine follicular dysplasia. </p>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 40%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<table align="right">
+  <tr>
+    <th colspan="3"> Traits</th>
+
+  </tr>
+  <tr>
+    <th>Life span</th>
+    <td>Male and female</td>
+    <td>11-13</td>
+  </tr>
+  <tr>
+    <th colspan="2">other names</th>
+    <td>Bouledogue Français</td>
+  </tr>
+ <tr>
+    <th>common nicknames</th>
+    <td colspan="2">frenchies</td>
+    
+  </tr>
+  <tr>
+    <th>origin</th>
+    
+    <td colspan="2">France</td>
+  </tr>
+<span><img src="C:\Users\Hp\Downloads\original.gif" alt="" title="" id="wows1"/></span>
+</table>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.collapsible {
+  background-color: #2F4F4F;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #228B22;
+  }
+.center {
+  margin: auto;
+  width: 60%;
+  border: 0px solid #F5FFFA;
+  padding: 10px;
+}
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #F5FFFA;
+}
+</style>
+</head>
+<body>
+
+
+<div class="center">
+<p>tap the subject you wish to see</p> 
+<button type="button" class="collapsible"><b>CARING AND GROOMING</b></button>
+<div class="content">
+<center><img src="C:\Users\Hp\Downloads\golds\colorgold1.PNG" style="width:60%" "height=20%" ></center>
+
+  <p>French Bulldogs do have certain health issues that owners can help avoid with proper care.[36] For one, they have fairly minimal exercise needs,but do require at least daily short walks. Since French bulldogs fall into the dog category of a so-called "flat faced dog", too strenuous of exercise that results in heavy breathing specifically in hot temperatures should be avoided. While at risk for obesity, if you take french bulldogs on daily walks, track their caloric intake by not overfeeding them, or feeding them foods high in fat, and also weighing them regularly, this can help minimize some deeper health issues that can take place when French bulldogs become obese. Exercise is a wonderful way to keep french bulldogs healthy
+ but it is imperative and recommended that french bulldogs should not be allowed near bodies of water as they are not capable of swimming due to their bodily structure being so heave towards their front. </p>
+<img src="C:\Users\Hp\Downloads\gold5.JPG" style="width:60%" "height=40%" align="right">
+
+<p>Grooming for a french bulldog is fairly easy and requires some brushing as french bulldogs have a short, fine and silky coat .However, as a french bulldog has many wrinkles in the face, it is advised that one should clean between the wrinkles and keep them dry.  As most dogs, french bulldogs will need the occasional bath but a brushing should suffice most of the time in order to have hair oils distributed evenly through the coat to maintain a natural shine. </p><p> 
+The AKC recommends that French bulldogs have health evaluation tests on hip dysplasia, a patellar evaluation, and ophthalmologist evaluation, and a cardiac exam as french bulldogs can have health problems in these area. </p>
+ 
+</div>
+<br>
+<p></p>
+<button type="button" class="collapsible"><b>TEMPERMENT</b></button>
+<div class="content">
+  <center>  <img src="C:\Users\Hp\Downloads\gold9.JPG" style="width:50%" "height=70%"></center>
+  <p>The French Bulldog, like many other companion dog breeds, requires close contact with humans. If left alone for more than a few hours, they may experience separation anxiety. This is especially true when they are young, but persists into adulthood. Its anxiety may lead a French Bulldog to behave destructively and for its housebreaking to fail. </p><p>
+The French Bulldog is sometimes called a "Frog dog" or a "Clown dog." "Frog dog" is in reference to their wide round face and the way they sit with their hind legs spread out. "Clown dog" is because they are considered to be fun-loving, and indeed they have been described as the "clowns of the dog world." </p><p>
+French Bulldogs are often kept as companions. They rarely bark. The breed is patient and affectionate with their owners and can live with other breeds. French Bulldogs are agreeable dogs and are human/people oriented dogs as this makes them on the easier side to train even though they do have tendencies to be stubborn.  It is noted that socializing puppies , including french bulldogs, can significantly impact the training of the puppy positively and is recommended. </P><p> 
+<img src="C:\Users\Hp\Downloads\gold10.JPG" style="width:30%" "height=45%" align="left">
+They are ranked 109th in Stanley Coren's The Intelligence of Dogs. There are certain exceptions to this average level of canine intelligence; a French Bulldog named Princess Jacqueline which died in 1934 was claimed to understand 20 words, reacting correctly. </p>
+</div>
+<br>
+<p></p>
+<button type="button" class="collapsible"><b>HEALTH</b></button>
+<div class="content">
+  <p>A UK breed survey report on 71 dog deaths put the average lifespan of French Bulldogs at 8 to 10 years, while the UK breed club suggests an average of 12 to 14 years.  The AKC lists that the French Bulldog breed has a lifespan of 11 to 13 years.[40] </p><p>
+In 2013 a UK Medical Study reviewed the health of 2228 French Bulldogs under veterinary care in the UK.  The study found that 1612 (72.4%) of these French Bulldog had at least one recorded health issue[42]: "The most common disorders recorded were ear infections (14.0%), diarrhea (7.5%) and conjunctivitis (3.2%). Skin problems were the most commonly reported group of disorders (17.9%). This study of over two thousand French Bulldogs provides a framework to identify the most important health priorities in French Bulldogs in the UK and can assist with reforms to improve health and welfare within the breed." </p>
+<h4>Patella issues</h4><p>
+Patellar luxation is the dislocation of the patella. In dogs, the patella is a small bone that shields the front of the stifle joint in its hind legs. This bone is held in place by ligaments. As the knee joint is moved, the patella slides in a groove in the femur. The kneecap may dislocate toward the inside (medial) or outside (lateral) of the leg. This condition may be the result of injury or congenital deformities. Patellar luxation can affect either or both legs.</p>
+<h4>Temperature regulation-related issues</h4> 
+<p>The French bulldog has only a single short coat. which combined with their compromised breathing system, makes it impossible for them to regulate their temperature efficiently. This means the dog may easily become cold, and are prone to heat stroke in hot and humid weather. In terms of grooming, the French Bulldog requires regular nail trimming, brushing, occasional bathing, and ear cleaning. French Bulldogs are also prone to allergies, which can cause eczema on the body.  Allergies can be caused by foods, insect bites, and French Bulldogs can also be frequently prone to hay fever and ophthalmic diseases. </p><p>
+As they are a brachycephalic breed, French Bulldogs are banned by several commercial airlines due to the numbers that have died while in the air. This is because dogs with snub noses find it difficult to breathe when they are hot and stressed. The temperature in a cargo space in an aircraft can rise as high as 30 °C (86 °F) when waiting on the runway. </p><p>
+It is also recommended that some French Bulldogs to live indoors have access to air conditioning to regulate their temperature if they are at higher risk. </p>
+<h4>Birth and reproduction</h4> </p>
+French Bulldogs frequently require artificial insemination and Caesarean section to give birth, with over 80% of litters delivered this way. Many French Bulldog stud dogs are incapable of naturally breeding. This is because French Bulldogs have very slim hips, making the male unable to mount the female to reproduce naturally. Therefore, breeders must undertake artificial insemination of female dogs. Female French bulldogs can also have erratic or 'silent' heats, which may be a side effect of thyroid disease or impaired thyroid function.</p> 
+<h4>Back and spine</h4> <p>
+French Bulldogs can also be prone to an assortment of back, disk and spinal diseases and disorders, most of which are thought to be related to the fact that they were selectively chosen from the dwarf examples of the Bulldog. This condition is also referred to as chondrodysplasia. French bulldogs are prone to having congenital hemivertebrae (also called "butterfly vertebrae"),[50][51] which will show on an X-ray.[52] More advanced technologies such as myelograms, CT scans, or magnetic resonance imaging are used to detect spinal cord compression. </p><p>
+In October 2010, the UK French Bulldog Health Scheme was launched. The scheme consists of three levels: the first level, Bronze, designates a basic veterinary check which covers all the Kennel Club Breed Watch points of concern for the breed. The next level, Silver, requires a DNA test for hereditary cataracts, a simple cardiology test, and patella grading. The final level, Gold, requires a hip score and a spine evaluation. <br>The European and UK French Bulldog fanciers and Kennel Clubs are moving away from the screw, cork-screw or 'tight' tail (which is an inbreed spinal defect),  and returning to the short drop tail which the breed originally had.  The UK breed standard now states that the tail should be "undocked, [delete 'very'] short, set low, thick at root, tapering quickly towards tip, preferably [delete 'either'] straight, [delete 'or kinked'] and long enough to cover anus. Never curling over back nor carried gaily." </p>
+<h4>Eyes</h4> <p>
+French Bulldogs have a tendency towards eye issues. Cherry eye, or an everted third eyelid, has been known to occur, although it is more common in Bulldogs. Glaucoma, retinal fold dysplasia, corneal ulcers and juvenile cataracts are also conditions which have been known to afflict French Bulldogs. </p><p>Screening of prospective breeding candidates through the Canine Eye Registration Foundation (CERF) can help eliminate instances of these diseases in offspring. The skin folds under the eyes of the French bulldog should be cleaned regularly and kept dry. Tear stains are common on lighter-colored dogs. </p>
+<h4>Brachycephalic Airway Obstructive Syndrome</h4> <p>
+This is a syndrome occurs in french bulldogs and causes them to have multiple side effects as in difficulty breathing (which includes snoring, loud breathing).  It happens in french bulldogs because they have narrow nostril openings, a long soft palate and fairly narrow tracheas. This issue can lead to death in French Bulldogs if they are not undergoing proper treatment. Increased factors should be taken into account like weather conditions and if the dog is high energy/excitement, or if the dog has any possible allergies. </p><p>
+In order to treat these dogs and create a smoother airway to the lungs, a procedure must be done that takes out a portion of their soft palate.  The results of the procedure show a minimum of 60% better airway passage to the lungs.   </p><p>
+Because of the Brachycephalic Airway Obstructive Syndrome, French Bulldogs must be managed in hot weather to make sure they have significant electrolytes and are kept track of. If the dog does show symptoms of overexertion and extremely heavy and dangerous breathing, it is recommended that the dog be hosed off with cool water for about 15 minutes until the dog seems to have calmed. </p>
+<img src="C:\Users\Hp\Downloads\gold12.JPG" style="width:50%" "height=55%" align="left">
+</div>
+<br>
+<p></p>
+
+<button type="button" class="collapsible"><b>FRENCH BULLDOGS IN POP CULTURE </b></button>
+<div class="content">
+<center>  <img src="C:\Users\Hp\Downloads\gold13.JPG" style="width:50%" "height=70%"></center>
+  <p>French Bulldogs are a very popular breed today and are very prevalent in social media culture. There is even a subreddit page that discusses "all things french bulldog" . This section discusses their cultural legacy in dog shows, movies and television shows, celebrities who own them, and french bulldogs in famous events. </p>
+</h4>Dog Show History</h4> <p>
+While no French Bulldogs have been Best in Show at either Crufts or the Westminster Kennel Club Dog Show, during the 1950s a French Bulldog won Best of Breed for eight years in a row at Westminster; the run ended with the dog's retirement after the 1960 show. </p><p>The dog's owner, Amanda West, went on to win Best of Breed with other French Bulldogs for a further 10 years. In 2010, a Canadian French Bulldog became the first of his breed to win the Non-Sporting Group[59] and make it through for consideration at the Best in Show round, eventually losing to a Scottish Terrier, Roundtown Mercedes of Maryscot. </p>
+</h4>Movies and Television</h4> <p>
+Jason Schwartzman's French Bulldog, Arrow, made a cameo in his HBO detective comedy series Bored to Death in October 2010 , The movie Due Date ,filmed in 2010, starring Zach Galifinakis, Robert Downey Jr., & Jamie Foxx also features a French Bulldog named Honey.  In a newer television show Queer Eye, a french bulldog named Bruley would make an appearance every show. Unfortunately, Bruley passed away in October 2019. A 2003 film, Bringing the House Down, also features a French Bulldog. There also is another 2003 film called Secondhand Lions that features a white french bulldog. </p>
+
+</h4>Who Own French Bulldogs</h4> <p>
+There are several celebrities who own french bulldogs whom are very notable. </p><p>Denise Richards for one is a french bulldog owner and can be seen bringing her french bulldog to sets that she acted on. </p><p>Dwayne "The Rock" Johnson also owns a french bulldog as a companion. </p><p>The well known couple of Chrissy Teigan and John Legend own a beige Frenchie as well. </p><p>High profiled celebrities like Madonna and Lady Gaga also are owners.</p> <p>Actress and singer Hilary Duff owns a french bulldog named "Beau".</p>  <p>Hugh Jackman, an Australian actor, is well known and often photographed running errands with his Frenchie.</p>  <p>Reese Witherspoon, an American actress, was seen photographed walking her pet french bulldog in 2008.</p> <p>Another notable celebrity is Ashley Olson, one of the two Olson Twins, was spotted carrying her french bulldog around New York City in 2011. </p>
+</h4>French Bulldogs in Events</h4> <p>
+The only French Bulldog aboard the RMS Titanic went down with the ship on 15 April 1912. First class passenger Robert Williams Daniel, a 27-year-old banker, had purchased the dog, named Gamin de Pycombe, for £150 (the equivalent of $17,000 in today's prices). A surviving passenger said that they had seen a French Bulldog swimming in the ocean after the ship sank..</p>
+
+</div>
+<br>
+<p></p>
+
+
+
+<button type="button" class="collapsible"><b>BREED CLUBS AND MODERN RECOGNIZATION</b></button>
+<div class="content">
+<center>  <img src="C:\Users\Hp\Downloads\gold17.JPG" style="width:50%" "height=70%"></center>
+  <p>Bulldogs were very popular in the past, especially in Western Europe. One of its ancestors was the English bulldog. Americans had been importing French Bulldogs for a while, but it was not until 1885 when they were brought over in order to set up an American-based breeding program.<br> They were mostly owned by society ladies, who first displayed them at the Westminster Kennel Club Dog Show in 1896.[citation needed] They arrived again in the following year with even more entries, where the judging of the breed would go on to have future ramifications. The judge in question at the dog show, a Mr. George Raper, only chose winners with "rose ears"—ears that folded at the tip, as with the standard for Bulldogs.The ladies formed the French Bull Dog Club of America and created the breed standard which stated for the first time that the "erect bat ear" was the correct type.</p><p>
+In the early 20th century the breed remained in vogue for high society, with dogs changing hands for up to $3,000 and being owned by members of influential families such as the Rockefellers and the J. P. Morgans. The American Kennel Club recognized the breed quickly after the breed club was formed, and by 1906 the French Bulldog was the fifth most popular dog breed in America.  In 2013, the American Kennel Club (AKC) ranked the French Bulldog as the 11th most popular breed in the United States, enjoying a sharp rise in popularity from 54th place a decade before, in 2003. By 2014, they had moved up to become the ninth most popular AKC registered dog breed in the USA and by the 2017 they were the fourth most popular .
+This new Bulldog breed arrived for the first time in England in 1893, with English Bulldog breeders in an uproar as the French imports did not meet the new breed standards in place by this time and they wanted to prevent the English stock from crossbreeding with the French. The Kennel Club initially recognized them as a subset of the existing Bulldog breed rather than an entirely new breed.  Some English breeders in this period bred the French Bulldogs in order to resurrect the Toy Bulldog. On 10 July 1902, at the house of Frederick W. Cousens, a meeting was held to set up a breed club in order to seek individual recognition for the French breed.  The adopted breed standard was the same one which was already in use in America, France, Germany and Austria. Despite opposition from Miniature Bulldog (the new breed name for the Toy Bulldog) and Bulldog breeders, in 1905, the Kennel Club changed its policy on the breed and recognized them separate from the English variety, initially as the Bouledogue Francais, then later in 1912 with the name changed to the French Bulldog. </p>
+<img src="C:\Users\Hp\Downloads\gold19.JPG" style="width:50%" "height=55%">
+</div>
+<br>
+<p></p>
+
+<button type="button" class="collapsible"><b>ORIGIN AND HISTORY</b></button>
+<div class="content">
+<center>  <img src="C:\Users\Hp\Downloads\gold21.JPG" style="width:50%" "height=70%"></center>
+  <p>The modern French Bulldog breed descends directly from the dogs of the Molossians, an ancient Greek tribe. The dogs were spread throughout the ancient world by Phoenician traders. British Molossian dogs were developed into the English Mastiff. A sub-breed of the Mastiff was the Bullenbeisser, a type of dog used for bull-baiting. </p><p>
+Blood sports such as bull-baiting were outlawed in England in 1835, leaving these "Bulldogs" unemployed;  however, they had been bred for non-sporting reasons since at least 1800, so their use changed from a sporting breed to a companion breed. To reduce their size, some Bulldogs were crossed with terriers, ratter dogs from the "slums" of England. By 1850, the Toy Bulldog had become common in England and appeared in conformation shows when they began around 1860.[citation needed] These dogs weighed around 16–25 pounds (7.3–11.3 kg), although classes were also available at dog shows for those who weighed under 12 pounds (5.4 kg).  </p><p>
+At the same time, lace workers from Nottingham who were displaced by the Industrial Revolution began to settle in Normandy, France.  They brought a variety of dogs with them, including Toy Bulldogs.  The dogs became popular in France and a trade in imported small Bulldogs was created, with breeders in England sending over Bulldogs that they considered to be too small, or with faults such as ears that stood up. By 1860, there were few Toy Bulldogs left in England, such was their popularity in France and due to the exploits of specialist dog exporters.  </p><p>
+The small Bulldog type gradually became thought of as a breed, and received a name, the Bouledogue Francais. This Francization of the English name is also a contraction of the words boule (ball) and dogue (mastiff or molosser). The dogs were highly fashionable and were sought after by society ladies and Parisian prostitutes alike, as well as creatives such as artists, writers, and fashion designers. There is record of artists named Edgar Degas and Toulouse-Lautrec who have been thought to have French Bulldogs in their paintings. However, records were not kept of the breed's development as it diverged further away from its original Bulldog roots. As it changed, terrier stock had been brought in to develop traits such as the breed's long straight ears. </p>
+<video width="520" height="240" controls>
+  <source src="C:\Users\Hp\Downloads\Watch Chhichhore - Hotstar.mp4" type="video/mp4">
+  <source src="/assets_tutorials/media/Shaun-the-Sheep-The-Movie-Official-Trailer.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video>
+</div>
+<br>
+<p></p>
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>

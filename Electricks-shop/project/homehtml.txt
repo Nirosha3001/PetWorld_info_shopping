@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>HOME_PAGE</title>
+</head>
+<body>
+    <div class="entire-code">
+    <link rel="stylesheet" href="home.css">
+    <link href="https://fonts.googleapis.com/css?family=Bitter&display=swap" rel="stylesheet">
+    <div class="top-nav-bar">
+
+        <div class="search-box">
+            <img src="../logo.jpeg" class="logo">
+            <br/>
+            <br/>
+          <!-- <h1 class="slider-title"> &OpenCurlyDoubleQuote;<u> Top 10 rare Peculiar Pets You May Never Know!!! </u>&CloseCurlyDoubleQuote;</h1>--> 
+            <h1><br/><pre>    <b><u>Top 10 rare Peculiar Pets You May Never Know!!!</b></u></pre></h1>
+        </div>
+
+        <div class="menu-bar">
+            <ul>
+           <!-- <li><a href="#">Sign Up</a></li>-->
+            <li><a href="#">Log In</a></li>
+            </ul>
+         </div>
+         <div class="icon">
+            <a href="https://www.facebook.com"target="new"><img src="../facebook.png"></a>
+            <a href="https://gmail.com"target="new"><img src="../gmail.jpg"></a>
+            <a href="https://www.pinterest.com/"target="new"><img src="../p.png"></a>
+            <a href="https://tumblr.com"target="new"><img src="../t.jpg"></a>
+            <a href="https://twitter.com"target="new"><img src="../Tw.png"></a>
+            <a href="https://www.instagram.com"target="new"><img src="../insta.png"></a>
+            <a href="#"><img src="../s11.jpg"></a>
+          </div>
+
+
+    </div>
+    <div class="cont1">
+        <br/>
+        <div style="display: flex; justify-content: center; align-items: center;">
+            <img src="../a2.jpg" height="250"  ></div>
+
+
+            <div class="indented1">
+                <h2> <b> 1.Stick Insect</b>  </h2>
+            </div>
+
+            <p class="indented1">The stick insect has been entertaining and educating school-age children in classrooms for years, because of its unique appearance and simple care needs. Now, more and more people are keeping stick insects as pets at home, according to science author Sandra Markle. These intriguing insects are usually 
+                around 3 to 4 inches (7 to 10 centimeters) long and can live for several years in the right conditions.</p>
+
+
+                <div class="b">
+                    <h4><b>Is This Pet Right for You?</b></h4>
+                </div>
+                <p class="b">Stick insects are very low-maintenance and 
+                    generally make good first pets for children, as long as adults are in charge of cleaning and
+                     handling duties. Special care should be taken when handling the insects, as their limbs can break easily.
+                      The species' unique appearance and 
+                    interesting molting process make them a living science project for anyone's home.
+                </p>
+                <div class="bla1">
+                    <h4><b>Caring for This Pet</b></h4>
+                </div>
+                <p class="bla1">Stick insects need tall enclosures, at least double the height of the insect, 
+                    because they like to hang. They are omnivores and thrive on a diet of bramble, ivy or even lettuce. 
+                    These insects don't like being alone and need other stick insects for companionship. 
+                    Their enclosures should be kept at room temperature and cleaned out weekly. 
+                    Stick insects molt many times before they reach maturity and need 
+                    enough room to literally climb out of their skin.
+                </p>
+
+                <br/>
+    
+
+<div class="cont">
+    <div style="display: flex; justify-content: center; align-items: center;">
+        <img src="../a1.jpg" height="350" ></div>
+
+        <div class="indented">
+            <h2> <b> 2.Capybara</b>  </h2>
+        </div>
+            
+        
+           <p class="indented">Capybaras are affectionately called giant rodents and giant guinea pigs but they 
+               are not as simple to care for as their smaller cousins. 
+               Capybaras can be found in households as pets, usually in groups,
+                but are not legal to own everywhere.
+                Related to the guinea pig, this native South American is the largest rodent in the world. 
+                Fully grown, the capybara is on average 4 feet (1.2 meters) long and usually weighs more than 100 pounds (45 kilograms). It's rare to find these obscure animals as pets, but there's one capybara named Caplin Rous who's gained a loyal Internet following. His owner, Melanie Typaldos, who lives in Buda, 
+                Texas, has made it her mission to educate people about this very unusual rodent.
+                
+            </p>
+            <div class="bla">
+                <h4><b>Is This Pet Right for You?</b></h4>
+            </div>
+            <p class="bla">Capybaras need a lot of attention, 
+                plenty of room to roam and some type of swimming pool. They can be territorial and could bite with their large teeth. Typaldos doesn't recommend capybaras for families with young children, because the rodents aren't nearly as tolerant as some other domestic pets, like dogs. Like most of the animals on our countdown, your city or state may have exotic pet legislation that 
+                would keep you from owning a capybara, so always check the laws before bringing one home.</p>
+
+            <div class="bla1">
+                <h4><b>Caring for This Pet</b></h4>
+            </div>
+            <p class="bla1">Typaldos says capybaras are never fully domesticated, so you must handle one often while it's young to establish a human-rodent relationship. Capybaras need lots of outdoor space and places to swim, since they are semi-aquatic creatures. They eat a steady diet of grass and require fresh drinking water at all times.
+            </p>
+            <br />
+
+
+
+
+           
+
+
+                        <div class="cont1">
+                            <div style="display: flex; justify-content: center; align-items: center;">
+                                <img src="../a3.jpg" height="250" ></div>
+            
+            
+                                <div class="indented1">
+                                    <h2> <b> 3.Hegdehogs</b>  </h2>
+                                </div>
+
+                                <p class="indented1">Many think the surge in pet hedgehogs began with the release of the popular video game, "Sonic the Hedgehog" in 1991, and this is one fad that seems to have staying power. Hedgehogs are commonly mistaken for small porcupines, but the two species are not related. Hedgehogs can vary in size from .5 pounds to 1.5 pounds (.23 kilograms to .6 kilograms), 
+                                    with spines up to .75 inches (1.9 centimeters) in length.
+                                </p>
+                                <div class="b">
+                                    <h4><b>Is This Pet Right for You?</b></h4>
+                                </div>
+                                <p class="b">It is illegal to own a hedgehog in some states, and in Washington D.C. and New York City, so check your city's and state's laws before purchasing one. You should also make sure you can locate a vet in your area that will treat hedgehogs. A hedgehog can make a good pet if you're committed to weekly weight checks to ensure it's not eating too much or too little, and plenty of one-on-one time. 
+                                    This is a pet that mostly sleeps all day and is up all night, so you'll also need to plan bonding time during odd hours.</p>
+
+                                    <div class="bla1">
+                                        <h4><b>Caring for This Pet</b></h4>
+                                    </div>
+                                    <p class="bla1">Hedgehogs are generally low-maintenance, gentle pets. 
+                                        Wild hedgehogs eat insects, but you can buy hedgehog mixes at pet stores that 
+                                        are specially formulated for these spiny creatures and supplement their diet with insects, like crickets, as treats. They need to be handled often while they are young to adjust to humans. For living conditions, The Hedgehog Welfare Society (HWS) recommends cages no smaller than 30 by 24 inches (76 by 60 centimeters) 
+                                        and at least 15 inches (38 centimeters) tall to accommodate exercise wheels.</p>
+<br/>
+
+                                        <div class="cont1">
+                                            <div style="display: flex; justify-content: center; align-items: center;">
+                                                <img src="../a4.jpg" height="350" ></div>
+                            
+                                                <div class="indented1">
+                                                    <h2> <b> 4.Pygmy Goat</b>  </h2>
+                                                </div>
+                                                <p class="indented1">Goats have long been kept as pets; even Abraham Lincoln had a pet goat in the White House during his presidency. Although most people don't keep standard dairy goats as pets anymore, pygmy goats are popular as pets, thanks to their compact sizes and friendly dispositions.
+                                                     These grass-eaters are similar to small dogs in size and are generally considered easy to care for.</p>
+
+
+                                                     <div class="b">
+                                                        <h4><b>Is This Pet Right for You?</b></h4>
+                                                    </div>
+
+                                                    <p class="b">A pygmy goat might be right for you if you are able to provide a 
+                                                        home environment that includes strong structures with plenty of land to roam and healthy grass to nosh.
+                                                         The NPGA says that pygmies will react to their owners' voices, but even with a responsive goat, 
+                                                         this pet could prove too challenging for most people.</p>
+
+
+
+                                                    <div class="bla1">
+                                                        <h4><b>Caring for This Pet</b></h4>
+                                                    </div>
+
+                                                    <p class="bla1">Pygmy goats aren't as high maintenance as standard goats, but they still require 
+                                                        shelters that are at least 8 by 10 feet (2.4 by 3 meters) with 4-foot (1.2 meters) high fencing, suggests the 
+                                                        National Pygmy Goat Association (NPGA). They are very sociable and are happier in a herd atmosphere or with other 
+                                                        pygmies to befriend. A balanced diet for these creatures includes grass hay, brush and leaves. 
+                                                        While most livestock vets will treat pygmy goats, you should locate one before bringing home your unique pet.
+                                                    </p>
+
+                                                    <div class="cont1">
+                                                        <div style="display: flex; justify-content: center; align-items: center;">
+                                                            <img src="../a5'.jpg" height="350" ></div>
+                                        
+                                                            <div class="indented1">
+                                                                <h2> <b> 5.Potbellied Pig</b>  </h2>
+                                                            </div>
+                                                            <p class="indented1">This pig isn't the 1-ton (2,000-pound) variety you'd find on a farm, 
+                                                                but a smaller breed that makes a pretty good pet. George Clooney 
+                                                                famously cared for a potbellied pig named Max for more than 18 years. 
+                                                                These squealers are relatively odor-free and easy to train. Police departments have even used potbellied pigs as drug sniffers, 
+                                                                because of their trainability and the fact that they have an amazing sense of smell.
+                                                            </p>
+
+                                                            <div class="b">
+                                                                <h4><b>Is This Pet Right for You?</b></h4>
+                                                            </div>
+                                                            <p class="b">Potbellies are considered intelligent and affectionate animals, 
+                                                                but they might not make great pets for everyone. For one thing, the potbelly 
+                                                                likes to be the center of attention, so one pig is enough for any family. 
+                                                                According to the Merck Veterinarian Manual, this sense of 
+                                                                importance can lead to aggressive behavior after the age of 2. 
+                                                                Therefore, this peculiar pet doesn't make a good match for a family with small children. 
+                                                                The potbelly also loves to root and can destroy carpet, if yours is an indoor pet. And it's worth
+                                                                 stating that this pet isn't good for anyone who takes pride in a perfectly manicured lawn.
+                                                        </p>
+                                                        <div class="bla1">
+                                                            <h4><b>Caring for This Pet</b></h4>
+                                                        </div>
+    
+                                                        <p class="bla1">Potbellies like a regimented schedule, 
+                                                            so exercise and mealtimes should be at the same times every day.
+                                                             According to veterinary experts, they have a tendency to become obese, 
+                                                             so it's important to maintain a balanced diet and make sure that they get plenty of exercise.
+                                                              Potbellies can be trained to walk on leashes, 
+                                                            so you can walk your pig the same way you would a dog for daily activity.</p>
+
+
+
+                                                            <div class="cont1">
+                                                                <div style="display: flex; justify-content: center; align-items: center;">
+                                                                    <img src="../a6.jpg" height="350" ></div>
+                                                
+                                                                    <div class="indented1">
+                                                                        <h2> <b> 6.Sugar Glilders</b>  </h2>
+                                                                    </div>
+                                                                    <p class="indented1">Part of the possum family, sugar gliders are quickly becoming one 
+                                                                        of America's favorite peculiar pet species. They are native to Australia and get
+                                                                         their name because of a special membrane that extends from the front leg to the hind leg, 
+                                                                         allowing them to glide from tree to tree. The average full-grown glider will weigh only about
+                                                                         3 ounces (85 grams) and reach around 7 inches (17 centimeters) in length.
+                                                                    </p>
+                                                                    <div class="b">
+                                                                        <h4><b>Is This Pet Right for You?</b></h4>
+                                                                    </div>
+                                                                    <p class="b">Sugar gliders are nocturnal and rarely adapt to daytime activities, 
+                                                                        so you might have to adjust your schedule to get in some bonding time. 
+                                                                        This animal is probably not ideal for a household with small children, 
+                                                                        since gliders do have sharp teeth and claws that can hurt inexperienced handlers. 
+                                                                        These tiny marsupials are considered exotic pets, and regulations
+                                                                         in your city or state could prohibit you from owning them as pets.
+                                                                    </p>
+                                                                    <div class="bla1">
+                                                                        <h4><b>Caring for This Pet</b></h4>
+                                                                    </div>
+                
+                                                                    <p class="bla1">Sugar gliders love to socialize, so they are happiest in pairs or more. 
+                                                                        They are capable of bonding with people, so spend plenty of time handling your
+                                                                         gliders when they are young to make a connection. You'll need a proper
+                                                                          enclosure with enough space to allow them to climb on tree branches.
+                                                                           Veterinarians recommend a diet of cooked meats and eggs, fresh vegetables, and raw nuts for gliders, 
+                                                                        supplemented with insects, leaves and fresh branches.</p>
+
+
+
+                                                                        <div class="cont1">
+                                                                            <div style="display: flex; justify-content: center; align-items: center;">
+                                                                                <img src="../a7.jpg" height="350" ></div>
+                                                            
+                                                                                <div class="indented1">
+                                                                                    <h2> <b> 7.Wallaby</b>  </h2>
+                                                                                </div>
+                                                                                <p class="indented1">Native to Australia, the wallaby 
+                                                                                    is a marsupial like its cousin the kangaroo.
+                                                                                     It can grow up to 41 inches (104 centimeters) in length and weigh up to 53 pounds (24 kilograms). It might be really cute, but the wallaby is also a fast jumper and needs
+                                                                                     a lot of space to hop around at high speeds.</p>
+
+                                                                                     <div class="b">
+                                                                                        <h4><b>Is This Pet Right for You?</b></h4>
+                                                                                    </div>
+                                                                                    <p class="b">The wallaby typically doesn't make a good pet for most people. 
+                                                                                        A normal backyard isn't going to be enough space for a wallaby to roam, 
+                                                                                        and the expense associated with providing the necessary fencing could be too much for many. 
+                                                                                        According to the AMS, these animals do not house-train easily, and they are generally nocturnal, 
+                                                                                        which could mean sleepless nights for you and your family.
+                                                                                         Families looking to bring a wallaby into their homes should seriously consider the financial implications 
+                                                                                        and commitment before purchasing or adopting a wallaby.</p>
+
+                                                                                        <div class="bla1">
+                                                                                            <h4><b>Caring for This Pet</b></h4>
+                                                                                        </div>
+                                    
+                                                                                        <p class="bla1">Wallabys are timid animals that require a lot of open space and diets rich in grass, 
+                                                                                            leaves and some fruits, such as apples. They are great escape artists, 
+                                                                                            and regular privacy fences are no match for them. 
+                                                                                            According to the Australia Marsupial Society (AMS), 
+                                                                                            you'll need fencing that's at least 5 feet (1.5 meters) or taller and has additional containment structures,
+                                                                                             like chains, along the bottom half to keep them from going under the fence, too. Wallabies are social animals, 
+                                                                                            so it's best to own a pair.</p>
+
+                                                                                            <div class="cont1">
+                                                                                                <div style="display: flex; justify-content: center; align-items: center;">
+                                                                                                    <img src="../a8.jpg" height="350" ></div>
+                                                                                
+                                                                                                    <div class="indented1">
+                                                                                                        <h2> <b> 8.Skunk</b>  </h2>
+                                                                                                    </div>
+                                                                                                    <p class="indented1">Skunks have been kept as pets since the early 20th century, 
+                                                                                                        but these striped animals have never been that popular. It could have something to do with the species' smelly reputation, but domesticated skunks' scent glands are removed when they're about 4 weeks old, so that owners won't have to live with the stench. 
+                                                                                                        Skunk enthusiasts describe them as very sensitive and intelligent animals, 
+                                                                                                        with curious personalities.</p>
+                                                                                                        <div class="b">
+                                                                                                            <h4><b>Is This Pet Right for You?</b></h4>
+                                                                                                        </div>
+                                                                                                        <p class="b">Only a few states allow skunks as pets, 
+                                                                                                            so that prohibits the majority of Americans from owning one. 
+                                                                                                            If you do live in a state where pet skunks are allowed,
+                                                                                                             then really think long and hard about whether you are truly willing to dedicate yourself to this pet for the remainder of its life, which can be more than 10 years. Pet skunks cannot ever be released into the wild, since they no longer have their most vital defense mechanisms, 
+                                                                                                            the scent glands.</p>
+                                                                                                            <div class="bla1">
+                                                                                                                <h4><b>Caring for This Pet</b></h4>
+                                                                                                            </div>
+                                                        
+                                                                                                            <p class="bla1">According to pet skunk expert Jane Bone, owners 
+                                                                                                                need to spend plenty of time bonding with their pet skunks when they're young, 
+                                                                                                                so that the animals will be accustomed to being held and grow up to be tame. 
+                                                                                                                Skunks can be litter-trained, just like cats, and eat diets similar to ferrets', 
+                                                                                                                with a mix of fresh veggies to supplement dry food. They do require annual
+                                                                                                                 visits to veterinarians for vaccines, and must be spayed or neutered 
+                                                                                                                 in addition to having their scent glands removed. Keep in mind, 
+                                                                                                                 not many vets are experienced with skunks, so make sure you locate a professional who is comfortable 
+                                                                                                                
+                                                                                                            treating skunks before you bring one into your fold.</p>
+
+                                                                                                            <div class="cont1">
+                                                                                                                <div style="display: flex; justify-content: center; align-items: center;">
+                                                                                                                    <img src="../a9.jpg" height="350" ></div>
+                                                                                                
+                                                                                                                    <div class="indented1">
+                                                                                                                        <h2> <b> 9.Madagascar Hissing cockroach</b>  </h2>
+                                                                                                                    </div>
+                                                                                                                    <p class="indented1">Some might think this is the grossest pet ever,
+                                                                                                                         but many people consider this large, 
+                                                                                                                         hissing insect their love bug. 
+                                                                                                                         If you can get past the idea of keeping a cockroach on purpose,
+                                                                                                                          you might realize these hissers actually make really good pets. 
+                                                                                                                          They don't fly or bite, and the hissing sound they make is pretty cool, too.</p>
+
+                                                                                                                          <div class="b">
+                                                                                                                            <h4><b>Is This Pet Right for You?</b></h4>
+                                                                                                                        </div>
+                                                                                                                        <p class="b">Some states might require you to get a permit before bringing 
+                                                                                                                            these large cockroaches into your life, so check your city and state
+                                                                                                                             laws before bringing the bugs home. Because they don't bite or sting, 
+                                                                                                                             these cockroaches could make excellent first pets for children, especially 
+                                                                                                                             
+                                                                                                                            those interested in bugs. Just remember, as with all of the pets on this countdown,
+                                                                                                                             owning these rather peculiar pets can present some challenges. 
+                                                                                                                            Make sure you're up for them before diving in.</p>
+
+
+<div class="bla1">
+                                                                                                                <h4><b>Caring for This Pet</b></h4>
+                                                                                                            </div>
+                                                        
+                                                                                                            <p class="bla1">These roaches need small living spaces with places to hide from light, 
+                                                                                                                and sticks to climb. They are excellent climbers and have been known to climb 
+                                                                                                                right out of their enclosures. Experts recommend keeping the top couple inches 
+                                                                                                                of the enclosures coated with petroleum jelly to inhibit the roaches from escaping. 
+                                                                                                                These insects like fresh veggies with any type of dry pellet food that's high in protein --
+                                                                                                                 even dog food will do the trick.</p>
+
+                                                                                                                 <div class="cont1">
+                                                                                                                    <div style="display: flex; justify-content: center; align-items: center;">
+                                                                                                                        <img src="../a10.png" height="350" ></div>
+                                                                                                    
+                                                                                                                        <div class="indented1">
+                                                                                                                            <h2> <b> 10.Miniature Donkey</b>  </h2>
+                                                                                                                        </div>
+                                                                                                                        <p class="indented1">Shrek and Fiona might have 
+                                                                                                                            accepted a donkey into their family in the popular animated movie,
+                                                                                                                             "Shrek," but wasn't that just a fairy tale? Not necessarily. 
+                                                                                                                             The American Pet Products Association reports that more than 
+                                                                                                                             3 million people in the United States own equine animals,
+                                                                                                                              including miniature donkeys. According to the National Miniature Donkey Association (NMDA), these animals make good pets because 
+                                                                                                                            they are affectionate and good with children.</p>
+                                                                                                                            <div class="b">
+                                                                                                                                <h4><b>Is This Pet Right for You?</b></h4>
+                                                                                                                            </div>
+                                                                                                                            <p class="b">Do you have plenty of 
+                                                                                                                                land for at least two mini donkeys 
+                                                                                                                                to roam? Are you financially prepared 
+                                                                                                                                to keep up with the large amount of hay your pets will require? Do your city's
+                                                                                                                                 laws allow for pet donkeys? These are all 
+                                                                                                                                questions you'll need to find the answers to before you make such a big investment. </p>   
+                                                                                                                                <div class="bla1">
+                                                                                                                                    <h4><b>Caring for This Pet</b></h4>
+                                                                                                                                </div>
+                                                                            
+                                                                                                                                <p class="bla1">Don't let the name fool you: Mini donkeys aren't tiny. 
+                                                                                                                                    They are about 3 feet tall (1.5 meters) and weigh between 200 and 350 pounds
+                                                                                                                                     (90 and 158 kilograms) at maturity. Mini donkeys have needs 
+                                                                                                                                     similar to those of full-size donkeys: plenty of hay, grain,
+                                                                                                                                      fresh water and access to a fenced pasture with dry shelter. 
+                                                                                                                                      They also require regular vaccines and should have their hooves trimmed every two to three months. 
+                                                                                                                                      NMDA explains they need the companionship of other mini donkeys, as they are not solitary animals, 
+                                                                                                                                    so taking on one means taking on at least a pair.</p>
+
+     </div>
+        <!--Footer-->
+    
+    <div  id="container">
+        <div id="main">
+    
+        </div>
+    
+    
+      </div>
+    <footer id="footer">
+    <div class="footer">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h1 class="logo-text"> <span>Pet</span> World</h1>
+                <p>
+                    The main purpose of developing this website is for helping the
+                    pet lovers to know more about the different kinds of pets in the world
+                    and to fall in love with them.
+                </p>
+                <div class="contact">
+                    <span> <i class="fa fa-phone"></i>&nbsp; 123-456-789</span>
+                   
+                    <span> <i class="fa fa-envelope"></i>&nbsp; info@petworld.com</span>
+                </div>
+                <div class="socials">
+                    <a href="#"> <i class="fa fa-facebook"></i></a>
+                    <a href="#"> <i class="fa fa-instagram"></i></a>
+                    <a href="#"> <i class="fa fa-twitter"></i></a>
+                    <a href="#"> <i class="fa fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-section links">
+                <h2>Quick links</h2>
+                <br>
+                <ul>
+                    <a href="#">
+                        <li>Home</li>
+                    </a>
+                    <a href="#">
+                        <li>Team</li>
+                    </a>
+                    <a href="#">
+                        <li>Gallery</li>
+                    </a>
+                    <a href="#">
+                        <li>Explore_animals</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="footer-section contact-form">
+                <h2>Contact Us</h2>
+                
+                <br>
+                <form action="index.html" method="post">
+                    <input type="email" name="email" class="text-input contact-input" placeholder="Your Email Address..">
+                    <textarea name="message"  class="text-input contact-input" placeholder="your message.."></textarea>
+                    <button type="submit" class=" btn btn-big contact-btn">
+                        <i class="fa fa-envelope"> Send</i>
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+
+            &copy; petworld.com | designed by PetWorld
+        </div>
+
+    </div>
+
+
+    </div>
+
+</div>
+</footer>
+
+
+<!--footer close-->
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding ="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD//XHTML 1.1//EN" "http://www.w3.org/TR/DTD/xhtml11,dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+</head>
+<body>
+    <script type="text/javascript">
+        var n_array = [10,34,42,43,12,0];
+        var x;
+        function no_zeros(ids){
+            for(var j=0; j<ids.length;j++ )
+            { 
+                if(ids[j]=='0'){
+                    x = true;
+                }
+                else{
+                    x = false;
+                }
+            }      
+            for(var i=0; i<ids.length;i++ )
+            { 
+                if(ids[i]=='0'){
+                    ids.splice(i,1); 
+                }
+            }      
+        document.write(ids,"<br>");
+        return x;
+    }
+document.write(no_zeros(n_array));
+</script>
+</body>
+</html>

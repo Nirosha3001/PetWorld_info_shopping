@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h2{
+  border: 2px solid black;
+  outline: #4CAF50 solid 10px;
+  margin: auto;  
+  padding: 20px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<h2>Yorkshire Terrier</h2>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>terrier</title>
+    <style>
+      * {box-sizing: border-box}
+      body {
+      font-family: Verdana, sans-serif; 
+      margin:0
+      }
+      .mySlides {display: none}
+      img {vertical-align: left;}
+      .slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      margin: auto;
+      }
+      /* Next & previous buttons */
+      .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.9s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+      }
+      /* Position the "next button" to the right */
+      .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+      }
+      /* On hover, add a black background color with a little bit see-through */
+      .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0.8);
+      }
+      /* Caption text */
+      .text {
+      color: #ffffff;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 40%;
+      text-align: center;
+      }
+      /* Number text (1/3 etc) */
+      .numbertext {
+      color: #ffffff;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+      }
+      /* The dots/bullets/indicators */
+      .dot {
+      cursor: pointer;
+      height: 4px;
+      width: 4px;
+      margin: 0 2px;
+      background-color: #999999;
+      border-radius: 60%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+      }
+      .active, .dot:hover {
+      background-color: #111111;
+      }
+      /* Fading animation */
+      .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 3.5s;
+      animation-name: fade;
+      animation-duration: 3.5s;
+      }
+      @-webkit-keyframes fade {
+      from {opacity: .3} 
+      to {opacity: 1}
+      }
+      @keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+      }
+      /* On smaller screens, decrease text size */
+      @media only screen and (max-width: 100px) {
+      .prev, .next,.text {font-size: 11px}
+      }
+    </style>
+  </head>
+  <body>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+      <center>  <img src="C:\Users\Hp\Downloads\gold2.JPG" style="width:60%" "height=80%"></center>
+        <div class="text">..............Puppies</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+    <center> <img src="C:\Users\Hp\Downloads\gold4.JPG" style="width:60%" "height=80%"> </center>
+        <div class="text">.......................................middle-aged golden dark retriver</div> 
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+      <center> <img src="C:\Users\Hp\Downloads\gold8.gif" style="width:60%" "height=80%"></center>
+        <div class="text">....................................will not harm other breads!</div>
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+    <script>
+      var slideIndex = 0;
+      showSlides();
+      
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none"; 
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1} 
+        slides[slideIndex-1].style.display = "block"; 
+        setTimeout(showSlides, 4000); 
+      }
+
+    </script>
+  </body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.center {
+  margin: auto;
+  width: 60%;
+  border: 0px solid #73AD21;
+  padding: 10px;
+}
+</style>
+</head>
+<body>
+
+
+<div class="center">
+  <p><b>The Yorkshire Terrier </b>is a small dog breed of terrier type, developed during the 19th century in Yorkshire, England.Ideally its maximum size is 7 pounds (3.2 kg).A popular companion dog, the Yorkshire Terrier has also been part of the development of other breeds, such as the Silky Terrier. It has a grey, black and tan coat, and the breed's nickname is Yorkie.</p>
+  
+<p>Yorkshire Terriers are very playful and energetic dogs. Many people who have a Yorkie as a pet have two, because they often have separation anxiety when left alone and "they don’t enjoy being alone."</p>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 40%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<table align="right">
+  <tr>
+    <th colspan="3"> Traits</th>
+
+ <tr>
+    <th>Life span</th>
+    <td colspan="2">13 to 16 years</td>
+    
+  </tr>
+  <tr>
+    <th>nickname</th>
+    <td colspan="2">Yorkie</td>
+    
+  </tr>
+  <tr>
+    <th>origin</th>
+    <td colspan="2">England</td>
+  </tr>
+
+<span><img src="C:\Users\Hp\Downloads\original.gif" alt="" title="" id="wows1"/></span>
+</table>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.collapsible {
+  background-color: #2F4F4F;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #228B22;
+  }
+.center {
+  margin: auto;
+  width: 60%;
+  border: 0px solid #F5FFFA;
+  padding: 10px;
+}
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #F5FFFA;
+}
+</style>
+</head>
+<body>
+
+
+<div class="center">
+<p>tap the subject you wish to see</p> 
+<button type="button" class="collapsible"><b>COAT AND COLOR</b></button>
+<div class="content">
+<center><img src="C:\Users\Hp\Downloads\golds\colorgold1.PNG" style="width:60%" "height=20%" ></center>
+
+  <p>For adult Yorkshire Terriers, importance is placed on coat colour, quality, and texture.The hair must be glossy, fine, straight, and silky. Traditionally the coat is grown out very long and is parted down the middle of the back, but "must never impede movement."</p>
+  <img src="C:\Users\Hp\Downloads\gold5.JPG" style="width:60%" "height=40%" align="right">
+<p>From the back of the neck to the base of the tail, the coat should be a dark grey to a black colour, and the hair on the tail should be a darker black. On the head, high chest and legs, the hair should be a bright, rich tan, darker at the roots than in the middle, that shades into a lighter tan at the tips, but not for all dogs. Also, in adult dogs there should be no black hairs intermingled with any of the tan-coloured fur. The fine, straight, silky coat is considered hypoallergenic.Adult Yorkshire Terriers whose coat colours deviate from the standard, or that have woolly or extra fine coats, are still Yorkshire Terriers. The only difference is that atypical Yorkshire Terriers should not intentionally be bred.In addition, care may be more difficult for "woolly" or "cottony" textured coats, or coats that are overly fine.One of the reasons given for not breeding "off-coloured" Yorkies is that the colour could be a potential indicator of a genetic defect that may affect the dog's health; a careful health screening can clarify if any health risks exist.Coats may vary in colour. For example, a mature Yorkie may have a silver-blue with light brown, while another might have a black and creamy colour.
+The long coat on the Yorkshire Terrier means that the breed requires regular brushing.</p>
+<h4>other colors</h4>
+<p>The Yorkshire Terrier is a tan dog with a blue saddle. Particolours exist, although they are not correct for the breed standard. The particolour coat is white with black-blue and tan. The white is caused by the recessive piebald gene. It is very rare to get a particolour, and if one is found, it tends to be very expensive.  Some Yorkshire Terriers are solid golden, they only produce pheomelanin, others are liver or chocolate, a brown colour; they produce brown eumelanin instead of black eumelanin. The standard prescribes clearly defined fur-colors, and non-standard colours may indicate crossbreeding with other breeds or in rare cases even health problems.  The AKC registration form for Yorkshire Terriers allows for four choices: blue and tan, blue and gold, black and tan, black and gold. Colour alone will not affect whether or not a dog is a good companion and pet. Even though off-coloured Yorkshire Terriers are advertised at premium prices, being of an unusual or atypical colour is stated to be neither new, desirable, nor exotic. </p>
+<p>Until recently, mismatched Yorkshire Terriers could be crossed with Biewer Terriers, a new breed that originated in Germany from particoloured Yorkshire Terriers. Although the AKC will not deny registration of a Yorkshire Terrier on colour alone, meaning that particolours are now registerable with the AKC, the Yorkshire Terrier Club of America has a directive that "any solid colour or combination of colours other than black and tan" for adult dogs is a disqualification, and "dogs of solid colour, unusual combination of colours, and particolours should be disqualified." </p>
+</div>
+<br>
+<p></p>
+<button type="button" class="collapsible"><b>TEMPERMENT</b></button>
+<div class="content">
+  <center>  <img src="C:\Users\Hp\Downloads\gold9.JPG" style="width:50%" "height=70%"></center>
+  <p>The ideal Yorkshire Terrier character or "personality" is described with a "carriage very upright feisty" and "conveying an important air". Though small, the Yorkshire Terrier is active, very protective, curious, and fond of attention. Mentally sound and emotionally secure ones should normally not show the soft submissive temperament seen in lap dogs, although many exhibit this behaviour due to improper training. Because of this, it is advised that a Yorkie would not be suitable for a home with typical young children. Instead, they make ideal companions for older families with many more reputable breeders routinely only homing to families with children older than about 10 years for the comfort of the dog, but more so for the benefit of the child. </p>
+<p>Yorkshire Terriers are an easy dog breed to train. This results from their own nature to work without human assistance. They are naturally smart and quick to learn with many being food- and or praise-motivated. Because they were developed as a working breed, many need a lot of both physical and mental stimulation—with both long walks/runs but also indoor games and training to keep their mind busy. They are known for being yappy, but many have reported that a contented Yorkie is a quiet one—that will happily curl up on your knee in the evening. But they are all individuals, with some being much more laid back than others, and the breeder should ideally be able to advise on the needs and temperaments of their particular line. Yorkies are easily adaptable to all surroundings, travel well, and make suitable pets for many homes. Due to their small size, they require limited exercise but need daily interaction with people. They thrive on attention and love. Many are more timid around other dogs and prefer to stay close to their humans for comfort. </p>
+<p>Yorkshire Terriers do tend to bark a lot. This makes them excellent watchdogs, as they will sound the alarm when anyone gets close. A barking problem can often be resolved with proper training and exercise.<br>
+Yorkshire Terriers are ranked 34th in Stanley Coren's The Intelligence of Dogs.</p>
+</div>
+<br>
+<p></p>
+<button type="button" class="collapsible"><b>HEALTH AND LIFESPAN</b></button>
+<div class="content">
+  <p>Health issues often seen in the Yorkshire Terrier include bronchitis, lymphangiectasia, portosystemic shunt, cataracts, and keratitis sicca.  Additionally, Yorkies often have a delicate digestive system, with vomiting or diarrhoea resulting from consumption of foods outside of a regular diet. The relatively small size of the Yorkshire Terrier means that it usually has a poor tolerance for anaesthesia. Additionally, a toy dog such as the Yorkie is more likely to be injured by falls, other dogs, and owner clumsiness. Injection reactions (inflammation or hair loss at the site of an injection) can occur. In addition, allergies can cause skin to be dry, itchy and/or red. </p>
+<center>  <img src="C:\Users\Hp\Downloads\gold11.JPG" style="width:50%" "height=70%"></center>
+<p>The lifespan of a Yorkie is 13–20 years. Undersized Yorkies (under 3 lb or 1.4 kg) generally have a shorter life span, as they are especially prone to health problems such as chronic diarrhoea and vomiting; are more sensitive to anaesthesia; and are more easily injured.</p>
+<img src="C:\Users\Hp\Downloads\gold12.JPG" style="width:50%" "height=55%" align="left">
+<h4>teeth</h4>
+<p>As with all other dogs, Yorkies have two sets of teeth in their life. The first set of teeth is the 28-piece deciduous teeth (often referred to as "milk teeth", "baby teeth", or "puppy teeth"). The second set is the 42-piece permanent or adult teeth. Sometimes the number of permanent or adult teeth may vary, which is fine as long as they do not cause bad bite. When puppies are born, they have no teeth because milk is the only food they need. The deciduous teeth will grow from the age of 3 to 8 weeks old, in the order of incisors, canines, and premolars. Yorkie puppies have no molar teeth. Yorkie puppies will start to lose their deciduous or baby teeth when the permanent or adult teeth come in. The permanent or adult grow when the Yorkie puppies are 4 to 8 months old. By around 8 months old, those teeth should fully develop. The permanent or adult teeth will grow in the order of incisors, canines, premolars, and molars. Molar teeth will develop at around 6 to 8 months old. </p>
+</div>
+<br>
+<p></p>
+
+<button type="button" class="collapsible"><b>COMMON HEALTH PROBLEMS </b></button>
+<div class="content">
+<center>  <img src="C:\Users\Hp\Downloads\gold13.JPG" style="width:50%" "height=70%"></center>
+  <p>Yorkies and other small dog breeds may have problems if the deciduous or baby teeth do not fall out as the permanent or adult teeth grow. This is caused by the new teeth not growing right underneath the deciduous teeth. (Usually, a puppy's body will absorb the roots of puppy teeth.) If the puppy tooth does not yield to the incoming tooth, it should be removed because it can cause a malocclusion or bad bite. Retained teeth can cause tooth decay because food can be easily caught in between the deciduous and permanent teeth. Sometimes the new teeth are forced to grow into an abnormal position and further cause a bad bite. The retained teeth may stay or fall weeks after the new teeth have developed. When necessary, the retained deciduous or baby teeth need to be removed surgically.</p><p> Like other small breeds, Yorkies are also prone to severe dental disease. Because they have a small jaw, their teeth can become crowded and may not fall out naturally. This can cause food and plaque to build up, and bacteria can eventually develop on the surface of the teeth, leading to periodontal disease. In addition, the bacteria can spread to other parts of the body and cause heart and kidney problems. The best prevention is regular brushing of the teeth with a toothpaste formulated specifically for dogs. Human toothpaste is not recommended, because it foams more easily and may be swallowed. Professional teeth cleaning by a veterinarian may also be required to prevent the development of dental problems.</p>
+<img src="C:\Users\Hp\Downloads\gold14.JPG" style="width:30%" "height=30%" align="right">
+<h4>Hypoglycaemia</h4>
+<p>Low blood sugar in puppies, or transient juvenile hypoglycaemia, is caused by fasting (too much time between meals). In rare cases, hypoglycaemia may continue to be a problem in mature, usually very small, Yorkies. It is often seen in Yorkie puppies at 5 to 16 weeks of age. Very tiny Yorkie puppies are especially predisposed to hypoglycaemia because a lack of muscle mass makes it difficult to store glucose and regulate blood sugar.  Factors such as stress, fatigue, a cold environment, poor nutrition, and a change in diet or feeding schedule may bring on hypoglycaemia.  Low blood sugar can also be the result of a bacterial infection, parasite or portosystemic liver shunt. Hypoglycaemia causes the puppy to become drowsy, listless (glassy-eyed), shaky, uncoordinated, since the brain relies on sugar to function. During a hypoglycaemic attack, the puppy usually has very pale or grey gums. The puppy also may not eat unless force-fed. Hypoglycaemia and dehydration seem to go hand-in-hand, and force-feeding or injecting fluids may also be necessary. Additionally, a hypoglycaemic Yorkie may have a lower than normal body temperature and, in extreme cases, may have a seizure or go into a coma. A dog showing symptoms should be given sugar in the form of corn syrup or Nutri-Cal and be treated by a veterinarian immediately, as prolonged or recurring attacks of hypoglycaemia can permanently damage the dog's brain.   In severe cases, it can be fatal. </p>
+
+</div>
+<br>
+<p></p>
+
+<button type="button" class="collapsible"><b>Teacup Yorkies</b></button>
+<div class="content">
+<img src="C:\Users\Hp\Downloads\gold15.JPG" style="width:50%" "height=70%" align="left">
+<img src="C:\Users\Hp\Downloads\gold16.JPG" style="width:50%" "height=70%">
+<br>
+<br>
+<br><p></p><br><br><br><br>
+  <p>"Teacup" Yorkshire terriers are very small Yorkshire terriers. The American Kennel Club and other kennel clubs do not acknowledge the Teacup as a variation of the breed or it as a separate variety.  Usually a teacup is any dog weighing less than 4 lb (1.8 kg) when fully grown, when the actual breed standard is given at 7 lb (3.2 kg) maximum. Breeding for "teacup" size is a controversial practice that is not encouraged by responsible breeders.</p>
+<p>They are bred to appeal with their puppy-like features, rather than bred to avoid health issues. There is great risk to a dam (mother) during pregnancy who is too small; most of these litters are born as a result of Caesarean sections and have a high mortality rate. </p>
+<p>There are many health issues associated with teacup dogs, such as luxating patellae, heart disease, hydrocephalus, hypoglycaemia, chronic pelvic pain syndrome, open fontanels and seizures.</p> 
+</div>
+<br>
+<p></p>
+
+<button type="button" class="collapsible"><b>NOTABILITY</b></button>
+<div class="content">
+<center>  <img src="C:\Users\Hp\Downloads\gold17.JPG" style="width:50%" "height=70%"></center>
+<h4>show dogs</h4>
+  <p>In 1997, Champion Ozmilion Mystification became the first Yorkie to win Best in Show at Crufts, the world's largest annual dog show.</p>
+<img src="C:\Users\Hp\Downloads\gold18.JPG" style="width:50%" "height=55%" align="left">
+<h4>small dogs</h4>
+<p>Sylvia, a matchbox-sized Yorkshire Terrier owned by Arthur Marples of Blackburn, England, was the smallest dog in recorded history. The dog died in 1945 when she was two years old, at which point she stood 2 1⁄2 in (6.4 cm) tall at the shoulder, measured 3 1⁄2 in (8.9 cm) from nose tip to tail, and weighed 4 oz (110 g).</p>
+<h4>war  dogs</h4>
+<p>Smoky, a war dog and hero of World War II, was owned by William Wynne of Cleveland, Ohio. Wynne adopted Smoky while he was serving with the 5th Air Force in the Pacific. </p>
+<img src="C:\Users\Hp\Downloads\gold19.JPG" style="width:50%" "height=55%">
+<h4>white house dogs</h4>
+<p>Pasha, Tricia Nixon Cox's pet Yorkie, lived in the White House during Richard Nixon's presidency.</p>
+</div>
+<br>
+<p></p>
+
+<button type="button" class="collapsible"><b>ORIGIN AND HISTORY</b></button>
+<div class="content">
+<center>  <img src="C:\Users\Hp\Downloads\gold21.JPG" style="width:50%" "height=70%"></center>
+  <p>The Yorkshire Terrier (also called the "Yorkie") originated in Yorkshire, a county in northern England (and the adjoining Lancashire). In the mid-19th century, workers from Scotland came to Yorkshire in search of work and brought with them several different varieties of small terriers. Breeding of the Yorkshire Terrier was "principally accomplished by the people—mostly operatives in cotton and woollen mills—in the counties of Yorkshire and Lancashire."  In the 1800s, miners wanting to develop a ratting terrier, bred Black-and-Tan Terriers with the Paisley and Clydesdale Terriers.  Details are scarce. Mrs A. Foster is quoted as saying in 1886, "If we consider that the mill operatives who originated the breed  were nearly all ignorant men, unaccustomed to imparting information for public use, we may see some reason why reliable facts have not been easily attained."</p>
+<p>The breed comes from three different dogs, a male named Old Crab, a female named Kitty, and another female whose name is not known.  The Paisley Terrier, a smaller version of the Skye Terrier that was bred for a beautiful long silky coat, also figured into the early dogs. Some authorities believed that the Maltese was used as well.  "They were all originally bred from Scotch Terriers (meaning dogs from Scotland, not today's Scottish Terrier) and shown as such  the name Yorkshire Terrier was given to them on account of their being improved so much in Yorkshire."  Yorkshire Terriers were shown in a dog show category (class) at the time called "Rough and Broken-coated, Broken-haired Scotch and Yorkshire Terriers". Hugh Dalziel, writing in 1878, says that "the classification of these dogs at shows and in the Kennel Club Stud Book is confusing and absurd" in lumping together these different types. </p>
+<p>In the early days of the breed, "almost anything in the shape of a Terrier having a long coat with blue on the body and fawn or silver coloured head and legs, with tail docked and ears trimmed, was received and admired as a Yorkshire Terrier". But in the late 1860s, a popular Paisley-type Yorkshire Terrier show dog named Huddersfield Ben, owned by a woman living in Yorkshire, Mary Ann Foster, was seen at dog shows throughout Great Britain, and defined the breed type for the Yorkshire Terrier. <br>
+<center>  <img src="C:\Users\Hp\Downloads\gold22.JPG" style="width:50%" "height=70%"></center>
+</p>
+<h4>Huddersfield Ben</h4>
+<p>Huddersfield Ben was a famous dog. His portrait was painted by George Earl[14] and in 1891 an authority on the breed wrote, "Huddersfield Ben was the best stud dog of his breed during his lifetime, and one of the most remarkable dogs of any pet breed that ever lived; and most of the show specimens of the present day have one or more crosses of his blood in their pedigree." A show winner, Huddersfield Ben quickly became the type of dog everyone wanted, and through his puppies has defined the breed as we know it today. He is still referred to as "father of the breed."</p>
+<h4>In North America</h4>
+<p>The Yorkshire Terrier was introduced in North America in 1872 and the first Yorkshire Terrier was registered with the American Kennel Club (AKC) in 1885. During the Victorian era, the Yorkshire Terrier was a popular pet, and show dog in England, and as Americans embraced Victorian customs, so too did they embrace the Yorkshire Terrier. The breed's popularity dipped in the 1940s, when the percentage of small breed dogs registered fell to an all-time low of 18% of total registrations. Smoky, a Yorkshire Terrier and famous war dog from World War II, is credited with beginning a renewal of interest in the breed.  The AKC ranked the Yorkshire Terrier as the 6th most popular purebred in the United States in 2012 and 2013.</p>
+
+<video width="520" height="240" controls>
+  <source src="C:\Users\Hp\Downloads\Watch Chhichhore - Hotstar.mp4" type="video/mp4">
+  <source src="/assets_tutorials/media/Shaun-the-Sheep-The-Movie-Official-Trailer.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video>
+</div>
+<br>
+<p></p>
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<link rel="stylesheet" href="stick.css"/>
+
+  
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    
+<style>
+
+.head{
+  border: 2px solid black;
+ outline: lightseagreen solid 10px ;
+  margin: auto;  
+  padding: 20px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+    
+<div class="head">
+<h2><b><u>Sugar Glilders</u></b></h2></div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SSugar Glilders</title>
+    <style>
+      * {box-sizing: border-box}
+      body {
+      font-family: Verdana, sans-serif; 
+      margin:0
+      }
+      .mySlides {display: none}
+      img {vertical-align: left;}
+      .slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      margin: auto;
+      }
+      /* Next & previous buttons */
+      .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.9s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+      }
+      /* Position the "next button" to the right */
+      .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+      }
+      /* On hover, add a black background color with a little bit see-through */
+      .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0.8);
+      }
+      /* Caption text */
+      .text {
+      color: #ffffff;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 40%;
+      text-align: center;
+      }
+      /* Number text (1/3 etc) */
+      .numbertext {
+      color: #ffffff;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+      }
+      /* The dots/bullets/indicators */
+      .dot {
+      cursor: pointer;
+      height: 4px;
+      width: 4px;
+      margin: 0 2px;
+      background-color: #999999;
+      border-radius: 60%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+      }
+      .active, .dot:hover {
+      background-color: #111111;
+      }
+      /* Fading animation */
+      .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 3.5s;
+      animation-name: fade;
+      animation-duration: 3.5s;
+      }
+      @-webkit-keyframes fade {
+      from {opacity: .3} 
+      to {opacity: 1}
+      }
+      @keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+      }
+      /* On smaller screens, decrease text size */
+      @media only screen and (max-width: 100px) {
+      .prev, .next,.text {font-size: 11px}
+      }
+    </style>
+  </head>
+  <body>
+  
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+      <center>  <img src="../Cps (8).jpeg" style="width:60%" "height=80%"></center>
+        <div class="text"></div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+    <center> <img src="../Cps (10).jpeg" style="width:60%" "height=80%"> </center>
+        <div class="text"></div> 
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+      <center> <img src="../Cps (13).jpeg" style="width:60%" "height=80%"></center>
+        <div class="text"></div>
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+    <script>
+      var slideIndex = 0;
+      showSlides();
+      
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none"; 
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1} 
+        slides[slideIndex-1].style.display = "block"; 
+        setTimeout(showSlides, 4000); 
+      }
+
+    </script>
+  </body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.center {
+  margin: auto;
+  width: 60%;
+  border: 0px solid #73AD21;
+  padding: 10px;
+}
+</style>
+</head>
+<body>
+
+
+<div class="center">
+  <p><b>Sugar Glilders</b> Part of the possum family, sugar gliders are quickly becoming one
+    of America's favorite peculiar pet species. They are native to Australia and get
+    their name because of a special membrane that extends from the front leg to the hind
+    leg,
+    allowing them to glide from tree to tree. The average full-grown glider will weigh
+    only about
+    3 ounces (85 grams) and reach around 7 inches (17 centimeters) in length..</p>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 40%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<table align="right">
+  <tr>
+    <th colspan="2"> scientific classification</th>
+
+  </tr>
+  <tr>
+    <th>kingdom</th>
+    <td>Animalia</td>
+  </tr>
+<tr>
+    <th>Phylum</th>
+    <td>Chordata</td>
+  </tr>
+<tr>
+    <th>Class</th>
+    <td>imammalia</td>
+  </tr>
+<tr>
+    <th>Order</th>
+    <td>Diprotodontia</td>
+  </tr>
+<tr>
+    <th>Family</th>
+    <td>Petauridae</td>
+  </tr>
+
+
+  <span><img src="../Cps (7).jpeg" alt="" title="" id="wows1"/></span>
+</table>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+ 
+.collapsible {
+  background-color: lightseagreen;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: lightskyblue;
+  }
+.center {
+  margin: auto;
+  width: 60%;
+ border: 0px solid lightskyblue;
+  padding: 10px;
+}
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #e6e6fa;
+}
+</style>
+</head>
+<body>
+
+
+<div class="center">
+<p>Tap the subject you wish to see</p> 
+<!--here-->
+<button type="button" class="collapsible"><b>Sugar Glider Behavior and Temperament</b></button>
+
+<div class="content">
+ 
+<center><img src="../Cps (12).jpeg" style="width:60%" "height=20%" ></center>
+
+  <p>Sugar gliders can make endearing, playful, and entertaining pets but 
+    regular human interaction is very important if you want your glider to be friendly, especially if you have a colony of them. Sugar gliders will bond to other gliders that they live with. While these glider relationships are very important,
+     you'll still want to make sure your glider is also friendly with you if you want to handle it.
+     <br/>
+     The noises that a sugar glider makes are usually to tell you that it is upset, frightened, hungry, or to express other emotions. “Crabbing” is the most often heard sound of an upset glider and this audible warning should be heeded or you may be in for a nasty bite. You may hear this sound if you wake a sleeping glider up during the day since they are nocturnal. Sugar gliders are very vocal pets, which takes some first-time owners by surprise.
+
+Sugar gliders are quick, love to climb, will glide from place to place if space allows it, and like to cuddle up in a nest during the day to sleep. They cannot be potty trained but they are otherwise fairly clean pets.
+<br/>Allowing a sugar glider to ride in your pocket or in a pouch that hangs around your neck is an easy way to bond and interact with them throughout the day. If your glider is not tame and isn't used to being handled, it may take some time and patience to get them to the point where they are cuddly.
+
+
+Remember that they have sharp teeth and nails and although they are not aggressive pets, they will bite if they feel threatened or frightened. 
+
+
+
+
+
+
+
+</p>
+ 
+
+</div>
+<br>
+<p></p>
+
+<button type="button" class="collapsible"><b>Housing the Sugar Glider</b></button>
+
+<div class="content">
+ 
+<center> <img src="../IMG-20200318-WA0022.jpg" style="width:60%" "height=40%" align="right"></center>
+
+  <p>A cage 24 inches wide by 24 inches deep by 36 inches high is a good minimum size for a pair of sugar gliders. Bigger is always better when it comes to housing a glider and the height is more valuable than the floor space due to the gliding activity of these little marsupials.
+
+    The cage wire spacing should be no more than 1/2 inch wide and the bars should be horizontal to allow climbing. The interior of the cage should contain lots of toys, a closed exercise wheel so your glider's tail doesn't get caught. Branches, ropes, and ladders will also provide lots of opportunity for climbing and exercise. 
+    
+    The latch on the cage should be secure, as gliders are clever, and have been known to learn how to open latches. They run the risk of serious injury if they fall.
+    
+    The bottom of the cage should be lined with aspen or fir shavings (avoid cedar shavings which have a strong scent that can cause respiratory irritation in small animals). Clean the shavings at least once a week; most illnesses that affect sugar gliders are due to unsanitary enclosure conditions.
+    
+    Your sugar glider's enclosure should be away from direct sunlight and in an area of the home that isn't drafty (keep away from doors and windows). The ideal temperature should be between 70 and 90 degrees Fahrenheit.
+    
+    A pet sugar glider's cage also should have a nest box, placed near the top of the enclosure.
+</p>
+  
+
+</div>
+<br>
+<p></p>
+<button type="button" class="collapsible"><b>Food and Water</b></button>
+
+<div class="content">
+ 
+<center><img src="../IMG-20200318-WA0023.jpg" style="width:30%" "height=40%" align="left"></center>
+
+  <p>Pet sugar gliders have fairly strict dietary requirements. Dietary imbalances from inappropriate calcium and phosphorous ratios are common but are thankfully easily prevented by feeding a proper, balanced diet.
+
+    In the wild, a sugar glider's diet includes nectar and sap from trees. Sugar gliders are omnivorous, so in addition to the nectar and sap, they will also eat both plant material and meat including fruit, insects, and even small birds or rodents.
+    
+    For pet sugar gliders, variations of the homemade BML diet are very popular. Honey, calcium powder, and baby cereal are often used in these recipes to provide proper nutrition to your glider but fresh fruit and vegetables should also be offered on a nightly basis.
+    
+    Formulated sugar glider diets are not readily accessible to most people and are also frowned upon by many breeders. 
+</p>
+
+
+</div>
+<br>
+<p></p>
+<button type="button" class="collapsible"><b>Common Health Problems</b></button>
+
+<div class="content">
+ 
+<center><img src="../IMG-20200318-WA0024.jpg" style="width:60%" "height=40%" align="center"></center>
+
+  <p>Sugar gliders are very susceptible to stress, and have even been known to self-mutilate under stressful conditions. Housing sugar gliders that don't get along with each other, or providing too small an enclosure are two major stressors for these small, sensitive creatures.
+
+    Like all marsupials and rodents, sugar gliders are prone to bacterial and parasitic infections. Giardia, a protozoan parasite, affects sugar gliders and can cause dehydration, lethargy and weight loss. Most bacterial and parasitic infections occur due to underwashed fruits and vegetables, so be sure to clean any foods you feed your sugar glider.
+    
+    Maintaining a proper phosphorous-calcium balance also is important for sugar gliders' health.
+    
+    Before purchasing a sugar glider you'll want to make sure you find a veterinarian in your area who specializes in marsupials and rodents. Most ailments that affect sugar gliders can be detected and treated with regular visits to the vet.
+</p>
+<img src="../IMG-20200318-WA0025.jpg" style="width:30%" "height=40%" align="right">
+
+</div>
+<br>
+<p></p>
+
+<button type="button" class="collapsible"><b>Purchasing Your Sugar Glider</b></button>
+
+<div class="content">
+ 
+<center><img src="../IMG-20200318-WA0026.jpg" style="width:40%" "height=40%" ></center>
+
+  <p>You'll want to seek out a reputable breeder who can provide information about the animal's health history and any conditions or problem it has had. As with any exotic pet, check the rules and regulations in your area to be sure you're complying with the law.
+</p>
+  
+
+</div>
+<br>
+<p></p>
+
+<button type="button" class="collapsible"><b>Sugar Gliders in the Wild</b></button>
+
+<div class="content">
+ 
+<center><img src="../IMG-20200318-WA0027.jpg" style="width:60%" "height=40%" align="right"></center>
+
+  <p>Baby sugar gliders start life off in their mother’s pouch and are referred to as joeys, just like kangaroos. They are classified as marsupials, not rodents like the similar- looking flying squirrel. 
+
+    All wild sugar gliders are from Australia, Indonesia, and New Guinea where they live in treetops. They get their name from the food they eat and their characteristic mode of transportation. 
+    
+    Sugar gliders in the wild live in social family units called colonies. This social life is very important to all sugar gliders and they thrive on the companionship and communication from their own species.
+</p>
+  
+
+</div>
+<br>
+<p></p>
+
+
+
+
+<!--till-->
+<button type="button" class="collapsible"><b>Is this Pet Right for you?</b></button>
+
+<div class="content">
+ 
+<center><img src="../Cps (12).jpeg" style="width:40%" "height=20%" ></center>
+
+  <p>Sugar gliders are nocturnal and rarely adapt to daytime activities,
+    so you might have to adjust your schedule to get in some bonding time.
+    This animal is probably not ideal for a household with small children,
+    since gliders do have sharp teeth and claws that can hurt inexperienced handlers.
+    These tiny marsupials are considered exotic pets, and regulations
+    in your city or state could prohibit you from owning them as pets.
+</p>
+ 
+
+</div>
+<br>
+<p></p>
+
+
+<button type="button" class="collapsible"><b>Caring for this pet</b></button>
+
+<div class="content">
+  <center> </center>
+ 
+  <img src="../Cps (12).jpeg" style="width:30%" "height=45%" align="left">
+
+
+    <p class="bla1">Sugar gliders love to socialize, so they are happiest in pairs or more.
+        They are capable of bonding with people, so spend plenty of time handling your
+        gliders when they are young to make a connection. You'll need a proper
+        enclosure with enough space to allow them to climb on tree branches.
+        Veterinarians recommend a diet of cooked meats and eggs, fresh vegetables, and raw
+        nuts for gliders,
+        supplemented with insects, leaves and fresh branches.
+    </p>
+
+<!--new things-->
+
+
+
+
+
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+</div>
+
+
+
+
+</div>
+  </body>
+  </html>
+  <body>
+    <!--footer-->
+    <div  id="container">
+      <div id="main">
+  
+      </div>
+  
+  
+    </div>
+  <footer id="footer">
+  <div class="footer">
+      <div class="footer-content">
+          <div class="footer-section about">
+              <h1 class="logo-text"> <span>Pet</span> World</h1>
+              <p>
+                  The main purpose of developing this website is for helping the
+                  pet lovers to know more about the different kinds of pets in the world
+                  and to fall in love with them.
+              </p>
+              <div class="contact">
+                  <span> <i class="fa fa-phone"></i>&nbsp; 123-456-789</span>
+                 
+                  <span> <i class="fa fa-envelope"></i>&nbsp; info@petworld.com</span>
+              </div>
+              <div class="socials">
+                  <a href="#"> <i class="fa fa-facebook"></i></a>
+                  <a href="#"> <i class="fa fa-instagram"></i></a>
+                  <a href="#"> <i class="fa fa-twitter"></i></a>
+                  <a href="#"> <i class="fa fa-youtube"></i></a>
+              </div>
+          </div>
+  
+          <div class="footer-section links">
+              <h2>Quick links</h2>
+              <br>
+              <ul>
+                  <a href="#">
+                      <li>Home</li>
+                  </a>
+                  <a href="#">
+                      <li>Team</li>
+                  </a>
+                  <a href="#">
+                      <li>Gallery</li>
+                  </a>
+                  <a href="#">
+                      <li>Explore_animals</li>
+                  </a>
+              </ul>
+          </div>
+          <div class="footer-section contact-form">
+              <h2>Contact Us</h2>
+              
+              <br>
+              <form action="index.html" method="post">
+                  <input type="email" name="email" class="text-input contact-input" placeholder="Your Email Address..">
+                  <textarea name="message"  class="text-input contact-input" placeholder="your message.."></textarea>
+                  <button type="submit" class=" btn btn-big contact-btn">
+                      <i class="fa fa-envelope"> Send</i>
+                  </button>
+              </form>
+          </div>
+      </div>
+  
+      <div class="footer-bottom">
+  
+          &copy; petworld.com | designed by PetWorld
+      </div>
+  
+  </div>
+  
+  
+  </div>
+  
+  </div>
+  </footer>
+  
+</div>
+  <!--footer close-->
+</body>
+  </html>
+
+
+
+
+
+
+
+
+
+
+

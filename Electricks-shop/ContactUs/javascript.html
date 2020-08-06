@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    var num,sq,cube;
+    document.write("<table border='4>'");
+    document.write("<tr>",
+                    "<th> Number </th>",
+                    "<th> Square </th>",
+                    "<th> Cube </th> ",
+                    "</tr>");
+    for(num = 5;num <16;num++)
+    {
+      sq = num * num;
+      cube = num * sq;
+      document.write("<tr>",
+                      "<td>" + num + "</td>",
+                      "<td>" + sq + "</td>",
+                      "<td>" + cube + "</td>"
+                    );
+      }
+      alert("table of numbers from 5 to 15 with their squares and cubes")
+      document.write("</table>");
+    </script>
+  
+    
+</body>
+</html>

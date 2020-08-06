@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding ="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD//XHTML 1.1//EN" "http://www.w3.org/TR/DTD/xhtml11,dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Count</title>
+    <script type="text/javascript">
+		function counters(nums){
+			var cs,pos_count=0,neg_count=0,zero_count=0;
+			for (var i = 0; i < nums.length; i++) {
+				if(nums[i]>0){
+					cs="grt";
+				}
+				else if(nums[i]<0){
+					cs="less";
+				}
+				else{
+					cs="zero";
+				}
+				switch(cs){
+					case "grt":
+					pos_count+=1;
+					break;
+					case "less":
+					neg_count+=1;
+					break;
+					default:zero_count+=1;}
+			}
+			var res=[pos_count,neg_count,zero_count];
+			return res;
+		}
+	</script>
+</head>
+<body>
+    <script>
+        var n=prompt("enter the number of elements you wish to enter:");
+		var arry=[];
+		for (var i = 0; i < n; i++) {
+			entry=prompt("enter "+(i+1)+" number");
+			arry.push(entry);
+			
+		}
+		res_ary=counters(arry);
+		document.write("total number of negative numbers:  "+res_ary[1]+
+        "<br/>total number of positive numbers: "+res_ary[0]+"<br/> total number of Zeros: "+res_ary[2]);
+    </script>
+</body>
+</html>

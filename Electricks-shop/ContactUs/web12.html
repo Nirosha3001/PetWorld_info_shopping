@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding ="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD//XHTML 1.1//EN" "http://www.w3.org/TR/DTD/xhtml11,dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>test name</title>
+	<script type="text/javascript">
+		function tst_name(){
+			name=prompt("enter the name");
+			var res=name.search("^[A-Z][a-z]+\, [A-Z][a-z]+ [A-Z]");
+			if(res==0){
+			return true;
+		}
+		else{
+			return false;}
+		}
+	</script>
+</head>
+<body>
+    <script type="text/javascript">
+		val=tst_name();
+		if(val==true){
+			document.write("true");
+		}
+		else{
+			document.write("false");
+		}
+	</script>
+
+</body>
+</html>

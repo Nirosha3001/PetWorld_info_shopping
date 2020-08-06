@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h2{
+  border: 2px solid black;
+  outline: #FF8C00 solid 10px;
+  margin: auto;  
+  padding: 20px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<h2>GUPPY</h2>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>gup</title>
+    <style>
+      * {box-sizing: border-box}
+      body {
+      font-family: Verdana, sans-serif; 
+      margin:0
+      }
+      .mySlides {display: none}
+      img {vertical-align: left;}
+      .slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      margin: auto;
+      }
+      /* Next & previous buttons */
+      .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.9s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+      }
+      /* Position the "next button" to the right */
+      .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+      }
+      /* On hover, add a black background color with a little bit see-through */
+      .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0.8);
+      }
+      /* Caption text */
+      .text {
+      color: #ffffff;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 40%;
+      text-align: center;
+      }
+      /* Number text (1/3 etc) */
+      .numbertext {
+      color: #ffffff;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+      }
+      /* The dots/bullets/indicators */
+      .dot {
+      cursor: pointer;
+      height: 4px;
+      width: 4px;
+      margin: 0 2px;
+      background-color: #999999;
+      border-radius: 60%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+      }
+      .active, .dot:hover {
+      background-color: #111111;
+      }
+      /* Fading animation */
+      .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 3.5s;
+      animation-name: fade;
+      animation-duration: 3.5s;
+      }
+      @-webkit-keyframes fade {
+      from {opacity: .3} 
+      to {opacity: 1}
+      }
+      @keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+      }
+      /* On smaller screens, decrease text size */
+      @media only screen and (max-width: 100px) {
+      .prev, .next,.text {font-size: 11px}
+      }
+    </style>
+  </head>
+  <body>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+      <center>  <img src="C:\Users\Hp\Downloads\gold2.JPG" style="width:60%" "height=80%"></center>
+        <div class="text">..............Puppies</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+    <center> <img src="C:\Users\Hp\Downloads\gold4.JPG" style="width:60%" "height=80%"> </center>
+        <div class="text">.......................................middle-aged golden dark retriver</div> 
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+      <center> <img src="C:\Users\Hp\Downloads\gold8.gif" style="width:60%" "height=80%"></center>
+        <div class="text">....................................will not harm other breads!</div>
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+    <script>
+      var slideIndex = 0;
+      showSlides();
+      
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none"; 
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1} 
+        slides[slideIndex-1].style.display = "block"; 
+        setTimeout(showSlides, 4000); 
+      }
+
+    </script>
+  </body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.center {
+  margin: auto;
+  width: 60%;
+  border: 0px solid #73AD21;
+  padding: 10px;
+}
+</style>
+</head>
+<body>
+
+
+<div class="center">
+  <p><b>The guppy</b> (Poecilia reticulata), also known as millionfish and rainbow fish, is one of the world's most widely distributed tropical fish and one of the most popular freshwater aquarium fish species. It is a member of the family Poeciliidae and, like almost all American members of the family, is live-bearing. Guppies, whose natural range is in northeast South America, were introduced to many habitats and are now found all over the world. They are highly adaptable and thrive in many different environmental and ecological conditions. Male guppies, which are smaller than females, have ornamental caudal and dorsal fins. Wild guppies generally feed on a variety of food sources, including benthic algae and aquatic insect larvae. Guppies are used as a model organism in the fields of ecology, evolution, and behavioural studies.[</p>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 40%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<table align="right">
+  <tr>
+    <th colspan="2"> scientific classification</th>
+
+  </tr>
+  <tr>
+    <th>kingdom</th>
+    <td>Animalia</td>
+  </tr>
+<tr>
+    <th>Phylum</th>
+    <td>chordata</td>
+  </tr>
+<tr>
+    <th>Class</th>
+    <td>Actinopterygii</td>
+  </tr>
+<tr>
+    <th>Order</th>
+    <td>Cyprinodontiformes</td>
+  </tr>
+<tr>
+    <th>Family</th>
+    <td>Poeciliidae</td>
+  </tr>
+<tr>
+    <th>Genus</th>
+    <td>Poecilia</td>
+  </tr>
+<tr>
+    <th>Species</th>
+    <td>P.Reticulata</td>
+  </tr>
+<tr>
+    <th>Binomial name</th>
+    <td>Poecilia Reticulata</td>
+  </tr>
+  <span><img src="C:\Users\Hp\Downloads\original.gif" alt="" title="" id="wows1"/></span>
+</table>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.collapsible {
+  background-color: 
+#FFA500;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color:#FFD700;
+  }
+.center {
+  margin: auto;
+  width: 60%;
+  border: 0px solid #FFFACD;
+  padding: 10px;
+}
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #FFFACD;
+}
+</style>
+</head>
+<body>
+
+
+<div class="center">
+<p>tap the subject you wish to see</p> 
+<button type="button" class="collapsible"><b>DESCRIPTION</b></button>
+<div class="content">
+<center><img src="C:\Users\Hp\Downloads\golds\colorgold1.PNG" style="width:60%" "height=20%" ></center>
+
+  <p>Guppies exhibit sexual dimorphism. While wild-type females are grey in body color, males have splashes, spots, or stripes that can be any of a wide variety of colors. The size of guppies vary, but males are typically 1.5-3.5 cm (0.6-1.4 in) long, while females are 3-6 cm (1.2-2.4 in) long. </p>
+  <img src="C:\Users\Hp\Downloads\gold5.JPG" style="width:60%" "height=40%" align="right">
+<p>A variety of guppy strains are produced by breeders through selective breeding, characterized by different colours, patterns, shapes, and sizes of fins, such as snakeskin and grass varieties. Many domestic strains have morphological traits that are very distinct from the wild-type antecedents. Males and females of many domestic strains usually have larger body size and are much more lavishly ornamented than their wild-type antecedents.</p>
+<p>Guppies have 23 pairs of chromosomes, including one pair of sex chromosomes, the same number as humans. The genes responsible for male guppies' ornamentations are Y-chromosome linked and are heritable.</p>
+<h4>Distribution and habitat</h4>
+<p>Guppies are native to Antigua and Barbuda, Barbados, Brazil, Guyana, Jamaica, the Netherlands Antilles, Trinidad and Tobago, the U.S. Virgin Islands, and Venezuela. However, guppies have been introduced to many different countries on every continent except Antarctica. Sometimes this has occurred accidentally, but most often as a means of mosquito control. The guppies were expected to eat the mosquito larvae and help slow the spread of malaria, but in many cases, these guppies have had a negative impact on native fish populations. Field studies reveal that guppies have colonized almost every freshwater body accessible to them in their natural ranges, especially in the streams located near the coastal fringes of mainland South America. Although not typically found there, guppies also have tolerance to brackish water and have colonized some brackish habitats. They tend to be more abundant in smaller streams and pools than in large, deep, or fast-flowing rivers. </p>
+</div>
+<br>
+<p></p>
+
+
+<button type="button" class="collapsible"><b>Reproduction</b></button>
+<div class="content">
+  <center>  <img src="C:\Users\Hp\Downloads\gold9.JPG" style="width:50%" "height=70%"></center>
+  <p>Guppies are highly prolific livebearers. The gestation period of a guppy is typically 21–30 days, varying considerably. Reproduction typically continues through the year, and the female becomes ready for conception again quickly after parturition. Male guppies, like other members of the family Poeciliidae, possess a modified tubular anal fin called the gonopodium, located directly behind the ventral fin. The gonopodium has a channel-like structure through which bundles of spermatozoa, called spermatozeugmata, are transferred to females. In courted mating, where the female shows receptive behavior following the male's courtship display, the male briefly inserts the gonopodium into the female's genital pore for internal fertilization. However, in the case of sneaky mating where copulation is forced, the male approaches the female and thrusts the gonopodium at the female's urogenital pore.  </p>
+<p>Once inseminated, female guppies can store sperm in their ovaries and gonoducts, which can continue to fertilize ova up to eight months. Because of the sperm-storage mechanism, males are capable of posthumous reproduction, meaning the female mate can give birth to the male's offspring long after the male's death, which contributes significantly to the reproductive dynamics of the wild guppy populations. <br>
+  <img src="C:\Users\Hp\Downloads\gold10.JPG" style="width:30%" "height=45%" align="left">
+</p>
+<p>The guppy has been successfully hybridised with various species of molly (Poecilia latipinna or P. velifera), e.g., male guppy and female molly. However, the hybrids are always male and appear to be infertile. The guppy has also been hybridised with the Endler's livebearer (Poecilia wingei) to produce fertile offspring, with the suggestion that, despite physical and behavioural differences, Endler's may represent a subspecies of Poecilia reticulata rather than a distinct species.</p>
+</div>
+<br>
+<p></p>
+
+
+<button type="button" class="collapsible"><b>IN THE AQUARIUM</b></button>
+<div class="content">
+  <p>Guppies prefer a hard-water aquarium with a temperature between 25.5 and 27.8 degreeC (78 and 82 degreeF) and salt levels equivalent to one tablespoon per 19 L (5 US gal). They can withstand levels of salinity up to 150% that of normal seawater, which has led to them being occasionally included in marine tropical community tanks, as well as in freshwater tropical tanks. Guppies are generally peaceful, though nipping behaviour is sometimes exhibited between male guppies or towards other top swimmers like members of the genus Xiphophorus (platies and swordtails), and occasionally other fish with prominent fins, such as angelfish. Guppies should not be kept as a single fish in an aquarium because both males and females show signs of shoaling, and are usually found in large groups in the wild. Its most famous characteristic is its propensity for breeding, and it can breed in both freshwater and marine aquaria.</p>
+<p>Guppies prefer water temperatures around 22.2-26.1 degreeC (72-79 degreeF) for reproduction. Pregnant female guppies have enlarged and darkened gravid spots near their anal vents. Just before birth, the eyes of fry may be seen through the translucent skin in this area of the female's body. When birth occurs, individual offspring are dropped in sequence, typically over a period of one to six hours. The female guppy has drops of two to 200 fry at a time, typically ranging between 30 and 60.</p>
+
+<center>  <img src="C:\Users\Hp\Downloads\gold11.JPG" style="width:50%" "height=70%"></center>
+
+<img src="C:\Users\Hp\Downloads\gold12.JPG" style="width:50%" "height=55%" align="left">
+<p>Well-fed adults do not often eat their own young, although sometimes safe zones are required for the fry. Specially designed livebearer birthing tanks, which can be suspended inside the aquarium, are available from aquatic retailers. These also serve to shield the pregnant female from further attention from the males, which is important because the males sometimes attack the females while they are giving birth. It also provides a separate area for the newborn young as protection from being eaten by their mother. However, if a female is put in the breeder box too early, it may cause her to have a miscarriage. Well-planted tanks that offer barriers to adult guppies shelter the young quite well. Guppy grass, water sprite, water wisteria, duckweed, and java moss are all good choices. A continuous supply of live food, such as Daphnia or brine shrimp, keep adult fish full and may spare the fry when they are born. Young fry take roughly three or four months to reach maturity. Feeding fry live foods, such as baby brine shrimp, microworms, infusoria and vinegar eels, is recommended. Alternatives include finely ground flake food, egg yolk, and liquid fish food, though the particulates in these may be too large for the youngest fry to eat.</p>
+</div>
+<br>
+<p></p>
+
+<button type="button" class="collapsible"><b>LIFECYCLE</b></button>
+<div class="content">
+<center>  <img src="C:\Users\Hp\Downloads\gold13.JPG" style="width:50%" "height=70%"></center>
+  <p> Two or three generations of guppies per year occur in the wild. Guppies are well developed and capable of independent existence without further parental care by the time they are born. Young guppies school together and perform antipredator tactics. Brood size is extremely variable, yet some consistent differences exist among populations depending on the predation level and other factors. Females of matching body sizes tend to produce more numerous but smaller-sized offspring in high-predation conditions. Female guppies first produce offspring at 10–20 weeks of age, and they continue to reproduce until 20–34 months of age. Male guppies mature in 7 weeks or less.  Total lifespan of guppies in the wild varies greatly, but it is typically around 2 years. Variations in such life historic characteristics of guppies are observed in different populations, indicating that different evolutionary pressures exist. </p>
+<h4>Maturity</h4>
+<p>Guppies' body sizes are positively correlated with age, and their size at maturation varies highly depending on the predation risk of their habitats. Male and female guppies from high-predation regions mature faster and start reproducing earlier, and they devote more resources to reproduction than those from low-predation regions. Females from high-predation regions reproduce more frequently and produce more offspring per litter, indicating that they are more fecund than low-predation females. Female guppies' reproductive success is also related to age. Older females produce offspring with reduced size and at increased interbrood intervals.</p>
+<img src="C:\Users\Hp\Downloads\gold14.JPG" style="width:30%" "height=30%" align="right">
+<h4>Senescence</h4>
+<p>One major factor that affects wild guppies' senescence patterns is the mortality rate caused by predation. Guppies from high-predation environments suffer high extrinsic mortality rate because they are more likely to be killed by predators. Female guppies from high-predation habitats experience a significant increase in mortality at 6 months of age, while those from low-predation habitats do not suffer increased mortality until 16 months. However, guppies from high-predation environments were found to have longer lifespans because their reproductive lifespans are longer. No significant difference is seen in postreproductive lifespans.</p>
+<h4>Population Regulations</h4>
+<p>In addition to senescence pattern, resource availability and density also matter in regulation of guppy populations. Guppies reduce their fecundity and reproductive allocation in response to scarce food. When food is abundant, they increase brood size. Differential reproductive allocation can be the cause of seasonality of life-history characteristics in some guppy populations. For example, during the wet season from May to December, guppies in the Northern Range of Trinidad reduce their investment in reproduction regardless of predation level, possibly in response to decreased food resources. Population density also matters in simpler environments because higher intraspecific competition causes a decrease in reproductive rate and somatic growth rate, and a corresponding increase in juvenile mortality rate due to cannibalism. It was confirmed that in low-predation habitats, guppy populations are in part regulated by density.</p>
+
+</div>
+<br>
+<p></p>
+
+<button type="button" class="collapsible"><b>ECOLOGY AND BEHAVIOR</b></button>
+<div class="content">
+<h4>Mating</h4>
+<p>Guppies have the mating system called polyandry, where females mate with multiple males. Multiple mating is beneficial for males because the males' reproductive success is directly related to how many times they mate. The cost of multiple mating for males is very low because they do not provide material benefit to the females or parental care to the offspring. Conversely, multiple mating can be disadvantageous for females because it reduces foraging efficiency and increases the chances of predation and parasitic infection. However, females gain some potential benefits from multiple mating. For example, females that mate multiply are found to be able to produce more offspring in shorter gestation time, and their offspring tend to have better qualities such as enhanced schooling and predator evasion abilities.</p>
+<p>Female guppies mate again more actively and delay the development of a brood when the anticipated second mate is more attractive than the first male. Experiments show that remating females prefer a novel male to the original male or a brother of the original male with similar phenotypes. Females' preference for novel males in remating can explain the excessive phenotypic polymorphism in male guppies.</p>
+<img src="C:\Users\Hp\Downloads\gold15.JPG" style="width:50%" "height=70%" align="left">
+<h4>Inbreeding avoidance</h4>
+<p>Inbreeding ordinarily has negative fitness consequences (inbreeding depression), and as a result species have evolved mechanisms to avoid inbreeding. Inbreeding depression is considered to be due largely to the expression of homozygous deleterious recessive mutations.  Numerous inbreeding avoidance mechanisms operating prior to mating have been described. However, inbreeding avoidance mechanisms that operate subsequent to copulation are less well known. In guppies, a post-copulatory mechanism of inbreeding avoidance occurs based on competition between sperm of rival males for achieving fertilization. In competitions between sperm from an unrelated male and from a full sibling male, a significant bias in paternity towards the unrelated male was observed. </p>
+
+<img src="C:\Users\Hp\Downloads\gold16.JPG" style="width:50%" "height=70%">
+<h4>Females' mating choice[e</h4>
+<p>Female guppy choice plays an important role in multiple mating. Female guppies are attracted to brightly colored males, especially ones with orange spots on the flank.  Orange spots can serve as an indicator of better physical fitness, as orange-spotted males are observed to swim longer in a strong current. There is also the concept of color association to possibly explain mate choice since one of the food sources wild guppies compete vigorously for is the fruit of cabrehash trees (Sloanea laurifolia), an orange carotenoid-containing fruit. The orange coloration that female guppies select for in males is composed of carotenoids, the saturation of which is affected by the male's carotenoid ingestion and parasite load. Guppies cannot synthesize these pigments by themselves and must obtain them through their diet. Because of this connection, females are possibly selecting for healthy males with superior foraging abilities by choosing mates with bright orange carotinoid pigments, thus increasing the survival chance of her offspring. Due to the advantage in mating, male guppies evolve to have more ornamentation across generations in low-predation habitats where the cost of being conspicuous is lower. The rate and duration of courtship display of male guppies also play an important role in female guppies' mating choice. Courtship behavior is another indicator of fitness due to the physical strength involved in maintaining the courtship dance, called sigmoid display, in which the males flex their bodies into an S shape and vibrate rapidly.</p>
+<p>Female mating choice may also be influenced by another female's choice. In an experiment, female guppies watched two males, one solitary and the other actively courting another female, and were given a choice between the two. Most females spent a longer time next to the male that was courting. Female guppies' preference for fit males allows their descendants to inherit better physical fitness and better chance of survival.</p>
+<h4>Predation</h4>
+<p>Guppies have many predators, such as larger fish and birds, in their natural habitats. Some of their common predators in the wild are Crenicichla alta, Anablepsoides hartii, and Aequidens pulcher. Guppies' small bodies and the bright coloration of males make them easy prey, and like many fish, they often school together to avoid predation. Schooling is more favored by evolution in populations of guppies under high predation pressure, exerted either by predator type or predator density.</p>
+<p>Coloration of guppies also evolves differentially in response to predation. Male guppies that are brighter in color have an advantage in mating as they attract more females in general, but they have a higher risk of being noticed by predators than duller males. Male guppies evolve to be more dull in color and have fewer, smaller spots under intense predation both in wild and in laboratory settings. Female guppies in a high-predation environment also evolve to prefer brightly colored males less, often rejecting them.</p>
+<h4>Predator inspection</h4>
+<p>When guppies encounter a potential predator, some of them approach the predator to assess danger. This behavior, called predator inspection, benefits the inspector since it gains information, but puts the inspector at a risk of predation. To reduce the risk, inspectors avoid the predator's mouth area—called the 'attack cone'—and approach the predator from the side or back. They may also form a group for protection, the size of which is larger in high-predation populations. Although evidence indicates predators are less likely to attack an inspector than a non-inspector, the inspectors remain at higher risk due to proximity to the predator.</p>
+<p>Risk-taking behaviors such as predator inspection can be evolutionarily stable only when a mechanism prevents selfish individuals from taking advantage of "altruistic" individuals. Guppies may adopt a conditional-approach strategy that resembles tit for tat. According to this hypothesis, guppies would inspect the predator on the first move, but if their co-inspectors do not participate in the predator inspection visits or do not approach the predator close enough, they can retaliate at the trailers by copying the trailer's last move in the next predator inspection visit. The hypothesis was supported in laboratory experiments.</p>
+<h4>Feeding</h4>
+<p>Wild guppies feed on algal remains, diatoms, invertebrates, plant fragments, mineral particles, aquatic insect larvae, and other sources. Algal remains constitute the biggest proportion of wild guppy diet in most cases, but diets vary depending on the specific conditions of food availability in the habitat. [39] For example, a study on wild Trinidad guppies showed that guppies collected from an oligotrophic upstream region (upper Aripo River) mainly consumed invertebrates, while guppies from a eutrophic downstream region (lower Tacarigua River) consumed mostly diatoms and mineral particles. Algae are less nutritious than invertebrates, and the guppies that feed mainly on algae have poor diets.</p>
+<p>Guppies' diet preference is not simply correlated to the abundance of a particular food. Laboratory experiments confirmed that guppies show 'diet switching' behavior, in which they feed disproportionately on the more abundant food when they are offered two food choices. The result shows that different groups of guppies have weak and variable food preference. Diet preference in guppies could be related to factors such as the presence of competitors. For example, the lower Tacarigua River has a larger variety of species and competition for invertebrate prey is higher, therefore the proportion of invertebrates is small in diets of those guppies.</p>
+<br>
+<br>
+<br><p></p><br><br><br><br>
+  <p> </p>
+<P> </p>
+<p> </p>
+</div>
+<br>
+<p></p>
+<video width="520" height="240" controls>
+  <source src="C:\Users\Hp\Downloads\Watch Chhichhore - Hotstar.mp4" type="video/mp4">
+  <source src="/assets_tutorials/media/Shaun-the-Sheep-The-Movie-Official-Trailer.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video>
+</div>
+<br>
+<p></p>
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h2{
+  border: 2px solid black;
+  outline: #FF8C00 solid 10px;
+  margin: auto;  
+  padding: 20px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<h2>GOLD FISH</h2>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GOLDI</title>
+    <style>
+      * {box-sizing: border-box}
+      body {
+      font-family: Verdana, sans-serif; 
+      margin:0
+      }
+      .mySlides {display: none}
+      img {vertical-align: left;}
+      .slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      margin: auto;
+      }
+      /* Next & previous buttons */
+      .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.9s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+      }
+      /* Position the "next button" to the right */
+      .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+      }
+      /* On hover, add a black background color with a little bit see-through */
+      .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0.8);
+      }
+      /* Caption text */
+      .text {
+      color: #ffffff;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 40%;
+      text-align: center;
+      }
+      /* Number text (1/3 etc) */
+      .numbertext {
+      color: #ffffff;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+      }
+      /* The dots/bullets/indicators */
+      .dot {
+      cursor: pointer;
+      height: 4px;
+      width: 4px;
+      margin: 0 2px;
+      background-color: #999999;
+      border-radius: 60%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+      }
+      .active, .dot:hover {
+      background-color: #111111;
+      }
+      /* Fading animation */
+      .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 3.5s;
+      animation-name: fade;
+      animation-duration: 3.5s;
+      }
+      @-webkit-keyframes fade {
+      from {opacity: .3} 
+      to {opacity: 1}
+      }
+      @keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+      }
+      /* On smaller screens, decrease text size */
+      @media only screen and (max-width: 100px) {
+      .prev, .next,.text {font-size: 11px}
+      }
+    </style>
+  </head>
+  <body>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+      <center>  <img src="C:\Users\Hp\Downloads\gold2.JPG" style="width:60%" "height=80%"></center>
+        <div class="text">..............Puppies</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+    <center> <img src="C:\Users\Hp\Downloads\gold4.JPG" style="width:60%" "height=80%"> </center>
+        <div class="text">.......................................middle-aged golden dark retriver</div> 
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+      <center> <img src="C:\Users\Hp\Downloads\gold8.gif" style="width:60%" "height=80%"></center>
+        <div class="text">....................................will not harm other breads!</div>
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+    <script>
+      var slideIndex = 0;
+      showSlides();
+      
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none"; 
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1} 
+        slides[slideIndex-1].style.display = "block"; 
+        setTimeout(showSlides, 4000); 
+      }
+
+    </script>
+  </body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.center {
+  margin: auto;
+  width: 60%;
+  border: 0px solid #73AD21;
+  padding: 10px;
+}
+</style>
+</head>
+<body>
+
+
+<div class="center">
+  <p><b>The goldfish</b> (Carassius auratus) is a freshwater fish in the family Cyprinidae of order Cypriniformes. It is one of the most commonly kept aquarium fish.</p>
+  <p>A relatively small member of the carp family (which also includes the Prussian carp and the crucian carp), the goldfish is native to East Asia. It was first selectively bred in ancient China more than 1,000 years ago, and several distinct breeds have since been developed. Goldfish breeds vary greatly in size, body shape, fin configuration and coloration (various combinations of white, yellow, orange, red, brown, and black are known).  </p>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 40%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<table align="right">
+  <tr>
+    <th colspan="2"> scientific classification</th>
+
+  </tr>
+  <tr>
+    <th>kingdom</th>
+    <td>Animalia</td>
+  </tr>
+<tr>
+    <th>Phylum</th>
+    <td>chordata</td>
+  </tr>
+<tr>
+    <th>Class</th>
+    <td>Actinopterygii</td>
+  </tr>
+<tr>
+    <th>Order</th>
+    <td>Cypriniformes </td>
+  </tr>
+<tr>
+    <th>Family</th>
+    <td>Cyprinidae</td>
+  </tr>
+<tr>
+    <th>Genus</th>
+    <td>Carassius </td>
+  </tr>
+<tr>
+    <th>Species</th>
+    <td>C. auratus </td>
+  </tr>
+<tr>
+    <th>Binomial name</th>
+    <td>Carassius auratus</td>
+  </tr>
+  <span><img src="C:\Users\Hp\Downloads\original.gif" alt="" title="" id="wows1"/></span>
+</table>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.collapsible {
+  background-color: 
+#FFA500;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color:#FFD700;
+  }
+.center {
+  margin: auto;
+  width: 60%;
+  border: 0px solid #FFFACD;
+  padding: 10px;
+}
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #FFFACD;
+}
+</style>
+</head>
+<body>
+
+
+<div class="center">
+<p>tap the subject you wish to see</p> 
+<button type="button" class="collapsible"><b>DESCRIPTION</b></button>
+<div class="content">
+<center><img src="C:\Users\Hp\Downloads\golds\colorgold1.PNG" style="width:60%" "height=20%" ></center>
+<h4>Size</h4>
+  <p>As of April 2008, the largest goldfish in the world was believed by the BBC to measure 19 inches (48 cm), and to be living in the Netherlands. At the time, a goldfish named "Goldie", kept as a pet in a tank in Folkestone, England, was measured as 15 inches (38 cm) and over 2 pounds (0.91 kg), and named as the second largest in the world behind the Netherlands fish. The secretary of the Federation of British Aquatic Societies (FBAS) stated of Goldie's size, "I would think there are probably a few bigger goldfish that people don't think of as record holders, perhaps in ornamental lakes". In July 2010, a goldfish measuring 16 inches (41 cm) and 5 pounds (2.3 kg) was caught in a pond in Poole, England, thought to have been abandoned there after outgrowing a tank.[</p>
+  <img src="C:\Users\Hp\Downloads\gold5.JPG" style="width:60%" "height=40%" align="right">
+<h4>Vision</h4>
+<p>Goldfish have one of the most studied senses of vision in fishes. Goldfish have four kinds of cone cells, which are respectively sensitive to different colours: red, green, blue and ultraviolet. The ability to distinguish between four different primary colours classifies them as tetrachromats.</p>
+<h4>Hearing</h4>
+<p>Goldfish have one of the most studied senses of hearing in fish. They have two otoliths, permitting the detection of sound particle motion, and Weberian ossicles connecting the swimbladder to the otoliths, facilitating the detection of sound pressure.</p>
+<h4>Cognitive abilities</h4>
+<p>Goldfish have strong associative learning abilities, as well as social learning skills. In addition, their visual acuity allows them to distinguish between individual humans. Owners may notice that fish react favorably to them (swimming to the front of the glass, swimming rapidly around the tank, and going to the surface mouthing for food) while hiding when other people approach the tank. Over time, goldfish learn to associate their owners and other humans with food, often "begging" for food whenever their owners approach.[</p>
+<p>Goldfish that have constant visual contact with humans also stop considering them to be a threat. After being kept in a tank for several weeks, sometimes months, it becomes possible to feed a goldfish by hand without it shying away. </p>
+<p>Goldfish have a memory-span of at least three months and can distinguish between different shapes, colors and sounds.  By using positive reinforcement, goldfish can be trained to recognize and to react to light signals of different colors or to perform tricks. Fish respond to certain colors most evidently in relation to feeding. Fish learn to anticipate feedings provided they occur at around the same time every day. </p>
+</div>
+<br>
+<p></p>
+
+
+<button type="button" class="collapsible"><b>HISTORY</b></button>
+<div class="content">
+  <center>  <img src="C:\Users\Hp\Downloads\gold9.JPG" style="width:50%" "height=70%"></center>
+  <p> Starting in ancient China, various species of carp (collectively known as Asian carp) have been bred and reared as food fish for thousands of years. Some of these normally gray or silver species have a tendency to produce red, orange or yellow color mutations; this was first recorded during the Jin dynasty (AD 265-420).</p>
+<p>During the Tang dynasty (AD 618-907), it was popular to raise carp in ornamental ponds and water gardens. A natural genetic mutation produced gold (actually yellowish orange) rather than silver coloration. People began to breed the gold variety instead of the silver variety, keeping them in ponds or other bodies of water. On special occasions at which guests were expected, they would be moved to a much smaller container for display.</p>
+<p>By the Song dynasty (AD 960-1279), the selective domestic breeding of goldfish was firmly established. In 1162, the empress of the Song Dynasty ordered the construction of a pond to collect the red and gold variety. By this time, people outside the imperial family were forbidden to keep goldfish of the gold (yellow) variety, yellow being the imperial color. This is probably the reason why there are more orange goldfish than yellow goldfish, even though the latter are genetically easier to breed. The occurrence of other colors (apart from red and gold) was first recorded in 1276.</p>
+  <img src="C:\Users\Hp\Downloads\gold10.JPG" style="width:30%" "height=45%" align="left">
+<p>During the Ming dynasty (1368–1644), goldfish also began to be raised indoors, which permitted selection for mutations that would not be able to survive in ponds. The first occurrence of fancy-tailed goldfish was recorded in the Ming Dynasty. In 1603, goldfish were introduced to Japan. In 1611, goldfish were introduced to Portugal and from there to other parts of Europe.</p>
+<p>During the 1620s, goldfish were highly regarded in southern Europe because of their metallic scales, and symbolized good luck and fortune. It became a tradition for married men to give their wives a goldfish on their first anniversary, as a symbol for the prosperous years to come. This tradition quickly died, as goldfish became more available, losing their status. Goldfish were first introduced to North America around 1850 and quickly became popular in the United States.</p>
+</div>
+<br>
+<p></p>
+
+
+<button type="button" class="collapsible"><b>CULTIVATION</b></button>
+<div class="content">
+<h4>In aquaria</h4>
+  <p>Like most species in the carp family, goldfish produce a large amount of waste both in their feces and through their gills, releasing harmful chemicals into the water. Build-up of this waste to toxic levels can occur in a relatively short period of time, and can easily cause a goldfish's death. For common and comet varieties, each goldfish should have about 20 US gallons (76 l; 17 imp gal) of water. Fancy goldfish (which are smaller) should have about 10 US gallons (38 l; 8.3 imp gal) per goldfish. The water surface area determines how much oxygen diffuses and dissolves into the water. A general rule is have 1 square foot (0.093 m2). Active aeration by way of a water pump, filter or fountain effectively increases the surface area.</p>
+<p>The goldfish is classified as a coldwater fish, and can live in unheated aquaria at a temperature comfortable for humans. However, rapid changes in temperature (for example in an office building in winter when the heat is turned off at night) can kill them, especially if the tank is small. Care must also be taken when adding water, as the new water may be of a different temperature. Temperatures under about 10 °C (50 °F) are dangerous to fancy varieties, though commons and comets can survive slightly lower temperatures. Extremely high temperatures (over 30 °C (86 °F) can also harm goldfish. However, higher temperatures may help fight protozoan infestations by accelerating the parasite's life-cycle—thus eliminating it more quickly. The optimum temperature for goldfish is between 20 °C (68 °F) and 22 °C (72 °F). </p>
+Like all fish, goldfish do not like to be petted. In fact, touching a goldfish can endanger its health, because it can cause the protective slime coat to be damaged or removed, exposing the fish's skin to infection from bacteria or water-born parasites. However, goldfish respond to people by surfacing at feeding time, and can be trained or acclimated to taking pellets or flakes from human fingers. The reputation of goldfish dying quickly is often due to poor care.  The lifespan of goldfish in captivity can extend beyond 10 years.</p>
+<center>  <img src="C:\Users\Hp\Downloads\gold11.JPG" style="width:50%" "height=70%"></center>
+<img src="C:\Users\Hp\Downloads\gold12.JPG" style="width:50%" "height=55%" align="left">
+<p>If left in the dark for a period of time, goldfish gradually change colour until they are almost gray. Goldfish produce pigment in response to light, in a similar manner to how human skin becomes tanned in the sun. Fish have cells called chromatophores that produce pigments which reflect light, and give the fish coloration. The color of a goldfish is determined by which pigments are in the cells, how many pigment molecules there are, and whether the pigment is grouped inside the cell or is spaced throughout the cytoplasm.</p>
+<p>Because goldfish eat live plants, their presence in a planted aquarium can be problematic. Only a few aquarium plant species (for example Cryptocoryne and Anubias) can survive around goldfish, but they require special attention so that they are not uprooted. Plastic plants are more durable.</p>
+
+<h4>In ponds</h4>
+<p>Goldfish are popular pond fish, since they are small, inexpensive, colorful and very hardy. In an outdoor pond or water garden, they may even survive for brief periods if ice forms on the surface, as long as there is enough oxygen remaining in the water and the pond does not freeze solid. Common, London and Bristol shubunkins, jikin, wakin, comet and some hardier fantail goldfish can be kept in a pond all year round in temperate and subtropical climates. Moor, veiltail, oranda and lionhead can be kept safely in outdoor ponds year-round only in more tropical climates and only in summer elsewhere. </p>
+<p>Ponds small and large are fine in warmer areas (although it ought to be noted that goldfish can "overheat" in small volumes of water in the summer in tropical climates). In frosty climes, the depth should be at least 80 centimeters (31 in) to preclude freezing. During winter, goldfish become sluggish, stop eating and often stay on the bottom of the pond. This is normal; they become active again in the spring. Unless the pond is large enough to maintain its own ecosystem without interference from humans, a filter is important to clear waste and keep the pond clean. Plants are essential as they act as part of the filtration system, as well as a food source for the fish. Plants are further beneficial since they raise oxygen levels in the water. </p>
+<p>Compatible fish include rudd, tench, orfe and koi, but the latter require specialized care. Ramshorn snails are helpful by eating any algae that grows in the pond. Without some form of animal population control, goldfish ponds can easily become overstocked. Fish such as orfe consume goldfish eggs. </p>
+
+</div>
+<br>
+<p></p>
+
+<button type="button" class="collapsible"><b>WELFARE CONCERNS</b></button>
+<div class="content">
+<center>  <img src="C:\Users\Hp\Downloads\gold13.JPG" style="width:50%" "height=70%"></center>
+  <p> Fishbowls are detrimental to the health of goldfish and are prohibited by animal welfare legislation in several municipalities.  The practice of using bowls as permanent fish housing originated from a misunderstanding of Chinese "display" vessels: goldfish which were normally housed in ponds were, on occasion, temporarily displayed in smaller containers to be better admired by guests.</p>
+<p> 
+
+The Japanese game of Goldfish scooping
+Fishbowls are detrimental to the health of goldfish and are prohibited by animal welfare legislation in several municipalities.  The practice of using bowls as permanent fish housing originated from a misunderstanding of Chinese "display" vessels: goldfish which were normally housed in ponds were, on occasion, temporarily displayed in smaller containers to be better admired by guests. 
+Goldfish kept in bowls or "mini-aquariums" suffer from death, disease, and stunting, due primarily to the low oxygen and very high ammonia/nitrite levels inherent in such an environment. In comparison to other common aquarium fish, goldfish have high oxygen needs and produce a large amount of waste; therefore they require a substantial volume of well-filtered water to thrive. In addition, all goldfish varieties have the potential to reach 5 inches (12.7 cm) in total length, with single-tailed breeds often exceeding one foot (30.5 cm). Single-tailed varieties include common and comet goldfish. </p>
+<img src="C:\Users\Hp\Downloads\gold14.JPG" style="width:30%" "height=30%" align="right">
+<p>In many countries, carnival and fair operators commonly give goldfish away in plastic bags as prizes. In late 2005 Rome banned the use of goldfish and other animals as carnival prizes. Rome has also banned the use of "goldfish bowls", on animal cruelty grounds,[40] as well as Monza, Italy, in 2004. In the United Kingdom, the government proposed banning this practice as part of its Animal Welfare Bill,  though this has since been amended to only prevent goldfish being given as prizes to unaccompanied minors.</p>
+<p>In Japan, during summer festivals and religious holidays (ennichi), a traditional game called goldfish scooping is played, in which a player scoops goldfish from a basin with a special scooper. Sometimes bouncy balls are substituted for goldfish. </p>
+<p>Although edible and closely related to some fairly widely eaten species, goldfish are rarely eaten. A fad among American college students for many years was swallowing goldfish as a stunt and as a fraternity initiation process. The first recorded instance was in 1939 at Harvard University. The practice gradually fell out of popularity over the course of several decades and is rarely practiced today. </p>
+<p>In Iran and among the international Iranian diaspora, goldfish are a traditional part of Nowruz celebrations. Some animal advocates have called for boycotts of goldfish purchases, citing industrial farming and low survival rates of the fish.</p>
+</div>
+<br>
+<p></p>
+
+<button type="button" class="collapsible"><b>BEHAVIOR</b></button>
+<div class="content">
+<p>Goldfish are gregarious, displaying schooling behavior, as well as displaying the same types of feeding behaviors. Goldfish may display similar behaviors when responding to their reflections in a mirror.</p>
+<p>Goldfish have learned behaviors, both as groups and as individuals, that stem from native carp behavior. They are a generalist species with varied feeding, breeding, and predator avoidance behaviors that contribute to their success. As fish, they can be described as "friendly" towards each other. Very rarely does a goldfish harm another goldfish, nor do the males harm the females during breeding. The only real threat that goldfish present to each other is competing for food. Commons, comets, and other faster varieties can easily eat all the food during a feeding before fancy varieties can reach it. This can lead to stunted growth or possible starvation of fancier varieties when they are kept in a pond with their single-tailed brethren. As a result, care should be taken to combine only breeds with similar body type and swim characteristics. </p>
+<img src="C:\Users\Hp\Downloads\gold15.JPG" style="width:50%" "height=70%" align="left">
+<h4>Feeding</h4>
+<p>In the wild, the diet of goldfish consists of crustaceans, insects, and various plant matter. Like most fish, they are opportunistic feeders and do not stop eating on their own accord. Overfeeding can be deleterious to their health, typically by blocking the intestines. This happens most often with selectively bred goldfish, which have a convoluted intestinal tract. When excess food is available, they produce more waste and feces, partly due to incomplete protein digestion. Overfeeding can sometimes be diagnosed by observing feces trailing from the fish's cloaca.  </p>
+<p>Goldfish-specific food has less protein and more carbohydrate than conventional fish food. Enthusiasts may supplement this diet with shelled peas (with outer skins removed), blanched green leafy vegetables, and bloodworms. Young goldfish benefit from the addition of brine shrimp to their diet. As with all animals, goldfish preferences vary. </p>
+
+<img src="C:\Users\Hp\Downloads\gold16.JPG" style="width:50%" "height=70%">
+<h4>Reproduction</h4>
+<p>Goldfish may only grow to sexual maturity with enough water and the right nutrition. Most goldfish breed in captivity, particularly in pond settings. Breeding usually happens after a significant temperature change, often in spring. Males chase gravid female goldfish (females carrying eggs), and prompt them to release their eggs by bumping and nudging them. </p>
+<p>Goldfish, like all cyprinids, are egg-layers. Their eggs are adhesive and attach to aquatic vegetation, typically dense plants such as Cabomba or Elodea or a spawning mop. The eggs hatch within 48 to 72 hours. </p>
+
+<p>Within a week or so, the fry begins to assume its final shape, although a year may pass before they develop a mature goldfish color; until then they are a metallic brown like their wild ancestors. In their first weeks of life, the fry grow quickly—an adaptation born of the high risk of getting devoured by the adult goldfish (or other fish and insects) in their environment.</p>
+<p>Some highly selectively bred goldfish can no longer breed naturally due to their altered shape. The artificial breeding method called "hand stripping" can assist nature, but can harm the fish if not done correctly. In captivity, adults may also eat young that they encounter. </p>
+<p>Breeding goldfish by the hobbyist is the process of selecting adult fish to reproduce, allowing them to reproduce and then raising the resulting offspring while continually removing fish that do not approach the desired pedigree.</p>
+
+<br>
+<br>
+<br><p></p><br><br><br><br>
+  <p> </p>
+<P> </p>
+<p> </p>
+</div>
+<br>
+<p></p>
+<video width="520" height="240" controls>
+  <source src="C:\Users\Hp\Downloads\Watch Chhichhore - Hotstar.mp4" type="video/mp4">
+  <source src="/assets_tutorials/media/Shaun-the-Sheep-The-Movie-Official-Trailer.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video>
+</div>
+<br>
+<p></p>
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>

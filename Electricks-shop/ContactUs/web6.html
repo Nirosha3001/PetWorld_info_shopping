@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding ="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD//XHTML 1.1//EN" "http://www.w3.org/TR/DTD/xhtml11,dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Sorting_letters</title>
+</head>
+<body>
+    <script>
+        function sortString(str){
+          var arr = str.split('');
+          var tmp;
+          for(var i = 0; i < arr.length; i++){
+            for(var j = i + 1; j < arr.length; j++){
+              /* if ASCII code greater then swap the elements position*/
+              if(arr[i] > arr[j]){
+                tmp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = tmp;
+              }
+            }
+          }
+          document.write(arr.join(' '));
+      }
+      var input = prompt("enter string to sort : ");
+      sortString(input);
+     </script>
+</body>
+</html>

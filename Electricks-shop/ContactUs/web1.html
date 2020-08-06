@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding ="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD//XHTML 1.1//EN"
+"http://www.w3.org/TR/DTD/xhtml11,dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Fibonacci</title>
+	<script type="text/javascript">
+		function fib(){
+			var num,num1=0,num2=1;
+			document.write("The first 20 Fibonacci numbers is.... ");
+			document.write(num2+", ");
+
+			for (var i = 0; i <20 ; i++) {
+				num=num1+num2;
+				document.write(num+", ");
+				num1=num2;
+				num2=num;
+				}
+		}
+	</script>
+</head>
+<body>
+    <script >
+		window.onload=fib;
+	</script>
+</body>
+</html>

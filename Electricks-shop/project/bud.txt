@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h2{
+  border: 2px solid black;
+  outline: #DC143C solid 10px;
+  margin: auto;  
+  padding: 20px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<h2>BUDGERIGAR</h2>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BUD</title>
+    <style>
+      * {box-sizing: border-box}
+      body {
+      font-family: Verdana, sans-serif; 
+      margin:0
+      }
+      .mySlides {display: none}
+      img {vertical-align: left;}
+      .slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      margin: auto;
+      }
+      /* Next & previous buttons */
+      .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.9s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+      }
+      /* Position the "next button" to the right */
+      .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+      }
+      /* On hover, add a black background color with a little bit see-through */
+      .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0.8);
+      }
+      /* Caption text */
+      .text {
+      color: #ffffff;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 40%;
+      text-align: center;
+      }
+      /* Number text (1/3 etc) */
+      .numbertext {
+      color: #ffffff;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+      }
+      /* The dots/bullets/indicators */
+      .dot {
+      cursor: pointer;
+      height: 4px;
+      width: 4px;
+      margin: 0 2px;
+      background-color: #999999;
+      border-radius: 60%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+      }
+      .active, .dot:hover {
+      background-color: #111111;
+      }
+      /* Fading animation */
+      .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 3.5s;
+      animation-name: fade;
+      animation-duration: 3.5s;
+      }
+      @-webkit-keyframes fade {
+      from {opacity: .3} 
+      to {opacity: 1}
+      }
+      @keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+      }
+      /* On smaller screens, decrease text size */
+      @media only screen and (max-width: 100px) {
+      .prev, .next,.text {font-size: 11px}
+      }
+    </style>
+  </head>
+  <body>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+      <center>  <img src="C:\Users\Hp\Downloads\gold2.JPG" style="width:60%" "height=80%"></center>
+        <div class="text">..............Puppies</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+    <center> <img src="C:\Users\Hp\Downloads\gold4.JPG" style="width:60%" "height=80%"> </center>
+        <div class="text">.......................................middle-aged golden dark retriver</div> 
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+      <center> <img src="C:\Users\Hp\Downloads\gold8.gif" style="width:60%" "height=80%"></center>
+        <div class="text">....................................will not harm other breads!</div>
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+    <script>
+      var slideIndex = 0;
+      showSlides();
+      
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none"; 
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1} 
+        slides[slideIndex-1].style.display = "block"; 
+        setTimeout(showSlides, 4000); 
+      }
+
+    </script>
+  </body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.center {
+  margin: auto;
+  width: 60%;
+  border: 0px solid #73AD21;
+  padding: 10px;
+}
+</style>
+</head>
+<body>
+
+
+<div class="center">
+  <p><b>The budgerigar</b> (Melopsittacus undulatus) is a long-tailed, seed-eating parrot usually nicknamed the budgie, or in American English, the parakeet. Budgies are the only species in the genus Melopsittacus. Naturally, the species is green and yellow with black, scalloped markings on the nape, back, and wings. Budgies are bred in captivity with colouring of blues, whites, yellows, greys, and even with small crests. Juveniles and chicks are monomorphic, while adults are told apart by their cere colouring, and their behaviour. </p>
+<p>The origin of the budgie's name is unclear. First recorded in 1805, budgerigars are popular pets around the world due to their small size, low cost, and ability to mimic human speech. They are the third most popular pet in the world, after the domesticated dog and cat. Budgies are nomadic flock parakeets that have been bred in captivity since the 19th century. In both captivity and the wild, budgerigars breed opportunistically and in pairs. </p>
+  <p>It is found wild throughout the drier parts of Australia, where it has survived harsh inland conditions for over five million years. Its success can be attributed to a nomadic lifestyle and its ability to breed while on the move. The budgerigar is closely related to lories and the fig parrots.</p>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 40%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<table align="right">
+  <tr>
+    <th colspan="2"> scientific classification</th>
+
+  </tr>
+  <tr>
+    <th>kingdom</th>
+    <td>Animalia</td>
+  </tr>
+<tr>
+    <th>Phylum</th>
+    <td>chordata</td>
+  </tr>
+<tr>
+    <th>Class</th>
+    <td>Aves</td>
+  </tr>
+<tr>
+    <th>Order</th>
+    <td>Psittaciformes</td>
+  </tr>
+<tr>
+    <th>Family</th>
+    <td>Psittacidae</td>
+  </tr>
+<tr>
+    <th>Genus</th>
+    <td>Melopsttscus</td>
+  </tr>
+<tr>
+    <th>Species</th>
+    <td>M.undulatus</td>
+  </tr>
+<tr>
+    <th>Binomial name</th>
+    <td>Melopsttscus undulatus</td>
+  </tr>
+  <span><img src="C:\Users\Hp\Downloads\original.gif" alt="" title="" id="wows1"/></span>
+</table>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.collapsible {
+  background-color: #B22222;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #8B0000;
+  }
+.center {
+  margin: auto;
+  width: 60%;
+  border: 0px solid #FF6347;
+  padding: 10px;
+}
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #FF6347;
+}
+</style>
+</head>
+<body>
+
+
+<div class="center">
+<p>tap the subject you wish to see</p> 
+<button type="button" class="collapsible"><b>DESCRIPTION</b></button>
+<div class="content">
+<center><img src="C:\Users\Hp\Downloads\golds\colorgold1.PNG" style="width:60%" "height=20%" ></center>
+
+  <p>Wild budgerigars average 18 cm (7 in) long, weigh 30-40 grams (1.1-1.4 oz), 30 cm (12 in) in wingspan, and display a light green body colour (abdomen and rumps), while their mantles (back and wing coverts) display pitch-black mantle markings (blackish in fledgelings and immatures) edged in clear yellow undulations. The forehead and face is yellow in adults. Prior to their adult plumage, young individuals have blackish stripes down to the cere (nose) in young individuals until around 3-4 months of age. They display small, iridescent blue-violet cheek patches and a series of three black spots across each side of their throats (called throat patches). The two outermost throat spots are situated at the base of each cheek patch. The tail is cobalt (dark-blue); and outside tail feathers display central yellow flashes. Their wings have greenish-black flight feathers and black coverts with yellow fringes along with central yellow flashes, which only become visible in flight or when the wings are outstretched. Bills are olive grey and legs blueish-grey, with zygodactyl toes.</p>
+  <img src="C:\Users\Hp\Downloads\gold5.JPG" style="width:60%" "height=40%" align="right">
+<p>In their natural Australian habitat, Budgerigars are noticeably smaller than those in captivity. This particular parrot species has been bred in many other colours and shades in captivity (e.g. blue, grey, grey-green, pieds, violet, white, yellow-blue). Pet store individuals will commonly be blue, green, or yellow. Like most parrot species, budgerigar plumage fluoresces under ultraviolet light – a phenomenon possibly related to courtship and mate selection.</p>
+<p>The upper half of their beaks is taller than the bottom half, covering the bottom when closed. The beak does not protrude much, due to the thick, fluffy feathers surrounding it, giving the appearance of a downward-pointing beak that lies flat against the face. The upper half acts as a long, smooth cover, while the bottom half is just about a half-sized cup-piece. These beaks allow the birds to eat plants, fruits, and vegetables. </p>
+<p>The colour of the cere (the area containing the nostrils) differs between the sexes, being royal blue in males, pale brown to white (nonbreeding) or brown (breeding) in females, and pink in immatures of both sexes (usually of a more even purplish-pink colour in young males). Some female budgerigars develop brown cere only during breeding time, which later returns to the normal colour. Young females can often be identified by a subtle, chalky whiteness that starts around the nostrils. Males that are either Albino, Lutino, Dark-eyed Clear or Recessive Pied (Danishpied or harlequin) always retain the immature purplish-pink cere colour their entire lives.</p>
+<p>It is usually easy to tell the sex of a budgerigar over six months old, mainly by the cere colours, but behaviours and head shape also help indicate sex. Veterinarians can determine the sex of a bird by invasive examination or samples of blood, feather, or eggshell. </p>
+<p>Mature males usually have a cere of light to dark blue, but in some particular colour mutations it can be purplish to pink – including Dark-eyed Clears, Danish Pieds (Recessive Pieds) and Inos, which usually display much rounder heads. The behaviour of males can distinguish them from females. Males are typically cheerful, extroverted, highly flirtatious, peacefully social, and very vocal.</p>
+<p>Female ceres are pinkish while immature. As they age, they move from being beigish or whitish outside breeding condition into brown (often with a 'crusty' texture) in breeding condition and usually display flattened backs of heads (right above the nape). Females are typically highly dominant and more socially intolerant. This behavior is more pronounced around other females than with males.</p>
+<p>Budgerigars have tetrachromatic colour vision, although all four classes of cone cells will not operate simultaneously unless under sunlight or a UV lamp. The ultraviolet spectrum brightens their feathers to attract mates. The throat spots in budgerigars reflect UV and can be used to distinguish individual birds. While ultraviolet light is essential to the good health of caged and pet birds, inadequate darkness or rest results in over-stimulation.</p>
+</div>
+<br>
+<p></p>
+
+
+<button type="button" class="collapsible"><b>TAXONOMY AND ETYMOLOGY</b></button>
+<div class="content">
+  <center>  <img src="C:\Users\Hp\Downloads\gold9.JPG" style="width:50%" "height=70%"></center>
+  <p>The budgerigar has co-existed with Indigenous Australians for 50–70,000 years. Several possible origins for its name have been proposed. First, it may be a mispronunciation or alteration of the Gamilaraay word gidjirrigaa (Aboriginal pronunciation: [ɡ̊iɟiriɡaː])  or gijirragaa from the Yuwaalaraay. Second is a modification budgery or boojery (Australian English slang for "good") and gar ("cockatoo"). Alternative spellings include budgerygah and betcherrygah, the latter used by indigenous people of the Liverpool Plains in New South Wales. While many references mention "good" as part of the meaning, and a few specify "good bird", it is quite possible that reports by those local to the region are more accurate in specifying the direct translation as "good food". However, reports that this could also translate as "tasty treat", implying they were eaten by the aboriginals, are likely to be apocryphal. The name likely derived from the species' migratory nature. With seasonal changes that left the plains barren, the budgerigar would move towards residual water that still produced the seeds they sought. By following the birds, the aboriginals could locate water and also other game or food plants – thus, leading to "good food". </p>
+<p>The budgerigar was first described by George Shaw in 1805, and given its current binomial name by John Gould in 1840. The genus name Melopsittacus, from Ancient Greek, means "melodious parrot". The species name undulatus is Latin for "undulated" or "wave-patterned". <br>
+  <img src="C:\Users\Hp\Downloads\gold10.JPG" style="width:30%" "height=45%" align="left">
+</p>
+<p>Alternative names for the budgerigar include the shell parrot, the warbling grass parakeet, the canary parrot, the zebra parrot, the flight bird, the scallop parrot. Although more applicable to members of the genus Agapornis, the name lovebird has been applied to them from their habit of mutual preening. The budgerigar was thought to be the link between the genera Neophema and Pezoporus based on the barred plumage. However, recent phylogenetic studies using DNA sequences place the budgerigar very close to the lories (tribe Loriini) and the fig parrots (tribe Cyclopsittini). </p>
+</div>
+<br>
+<p></p>
+
+
+
+
+<button type="button" class="collapsible"><b>BEHAVIOR</b></button>
+<div class="content">
+<img src="C:\Users\Hp\Downloads\gold15.JPG" style="width:50%" "height=70%" align="left">
+<img src="C:\Users\Hp\Downloads\gold16.JPG" style="width:50%" "height=70%">
+<br>
+<br>
+<br><p></p><br><br><br><br>
+<h4>Colour mutations</h4>
+  <p>All captive budgerigars are divided into two basic series of colours; namely, white-based (blue, grey and white) and yellow-based (green, grey-green and yellow). Presently, at least 32 primary mutations (including violet) occur, enabling hundreds of possible secondary mutations (stable combined primary mutations) and colour varieties (unstable combined mutations). </p>
+<h4>Breeding</h4>
+  <p>Breeding in the wild generally takes place between June and September in northern Australia and between August and January in the south, although budgerigars are opportunistic breeders and respond to rains when grass seeds become most abundant. They show signs of affection to their flockmates by preening or feeding one another. Budgerigars feed one another by eating the seeds themselves, and then regurgitating it into their flockmate's mouth. Populations in some areas have increased as a result of increased water availability at farms. Nests are made in holes in trees, fence posts or logs lying on the ground; the four to six eggs are incubated for 18-21 days, with the young fledging about 30 days after hatching.</p>
+<p>In the wild, virtually all parrot species require a hollow tree or a hollow log as a nest site. Because of this natural behaviour, budgerigars most easily breed in captivity when provided with a reasonable-sized nest box. </p>
+<p>The eggs are typically one to two centimetres long and are pearl white without any colouration if fertile. Female budgerigars can lay eggs without a male partner, but these unfertilised eggs will not hatch. Females normally have a whitish tan cere; however, when the female is laying eggs, her cere turns a crusty brown colour. Certain female budgies may always keep a whitish tan cere or always keep a crusty brown cere regardless of breeding condition. A female budgerigar will lay her eggs on alternating days. After the first one, there is usually a two-day gap until the next. She will usually lay between four and eight eggs, which she will incubate (usually starting after laying her second or third) for about 21 days each. Females only leave their nests for very quick defecations, stretches and quick meals once they have begun incubating and are by then almost exclusively fed by their mate (usually at the nest's entrance). Females will not allow a male to enter the nest, unless he forces his way inside. Depending on the clutch size and the beginning of incubation, the age difference between the first and last hatchling can be anywhere from 9 to 16 days. At times, the parents may begin eating their own eggs due to feeling insecure in the nest box. </p>
+<p>Sometimes, budgerigars (mainly males) are not interested in the opposite sex[citation needed], and will not reproduce with them; a flock setting—several pairs housed where they can see and hear each other—is necessary to stimulate breeding.</p>
+<h4>Chick Health</h4>
+<p>Breeding difficulties arise for various reasons. Some chicks may die from diseases and attacks from adults. Other budgerigars (virtually always females) may fight over the nest box, attacking each other or a brood. Another problem may be the birds' beaks being under-lapped, where the lower mandible is above the upper mandible. </p>
+<p>Most health issues and physical abnormalities in budgerigars are genetic. Care should be taken that birds used for breeding are active, healthy and unrelated. Budgerigars that are related or have fatty tumours or other potential genetic health problems should not be allowed to breed. Parasites (lice, mites, worms) and pathogens (bacteria, fungi and viruses), are contagious and thus transmitted between individuals through either direct or indirect contact. Nest boxes should be cleaned between uses. </p>
+<p>Splay leg is a relatively common problem in baby budgerigars and other birds; one of the budgerigar's legs is bent outward, which prevents it from being able to stand properly and compete with the other chicks for food, and can also lead to difficulties in reproducing in adulthood. The condition is caused by young budgerigars slipping repeatedly on the floor of a nest box. It is easily avoided by placing a small quantity of a safe bedding or wood shavings in the bottom of the nest box. Alternatively, several pieces of paper may be placed in the box for the female to chew into bedding. </p>
+<h3>Development</h3>
+<p>Eggs take about 18-20 days before they start hatching. The hatchlings are altricial - blind, naked, unable to lift their head and totally helpless, and their mother feeds them and keeps them warm constantly. Around 10 days of age, the chicks' eyes will open, and they will start to develop feather down. The appearance of down occurs at the age for closed banding of the chicks. Budgerigars' closed band rings must be neither larger nor smaller than 4.0 to 4.2 mm. </p>
+<p>They develop feathers around three weeks of age. (One can often easily note the colour mutation of the individual birds at this point.) At this stage of the chicks' development, the male usually has begun to enter the nest to help his female in caring and feeding the chicks. Some budgerigar females, however, totally forbid the male from entering the nest and thus take the full responsibility of rearing the chicks until they fledge. </p>
+<p>Depending on the size of the clutch and most particularly in the case of single mothers, it may then be wise to transfer a portion of the hatchlings (or best of the fertile eggs) to another pair. The foster pair must already be in breeding mode and thus either at the laying or incubating stages, or already rearing hatchlings. </p>
+<p>As the chicks develop and grow feathers, they are able to be left on their own for longer periods of time. By the fifth week, the chicks are strong enough that both parents will be comfortable in staying out of the nest more. The youngsters will stretch their wings to gain strength before they attempt to fly. They will also help defend the box from enemies, mostly with their loud screeching. Young budgerigars typically fledge (leave the nest) around their fifth week of age and are usually completely weaned between six and eight weeks old. However, the age for fledging, as well as weaning, can vary slightly depending on the age and the number of surviving chicks. Generally speaking, the oldest chick is the first to be weaned. Although it is logically the last one to be weaned, the youngest chick is often weaned at a younger age than its older sibling(s). This can be a result of mimicking the actions of older siblings. Lone surviving chicks are often weaned at the youngest possible age as a result of having their parents' full attention and care. </p>
+<p>Hand-reared budgies may take slightly longer to wean than parent-raised chicks. Hand feeding is not routinely done with budgerigars, due to their small size and because young parent raised birds can be readily tamed. </p>
+  
+</div>
+<br>
+<p></p>
+
+<button type="button" class="collapsible"><b>RELATIONSHIP WITH HUMANS</b></button>
+<div class="content">
+<center>  <img src="C:\Users\Hp\Downloads\gold13.JPG" style="width:50%" "height=70%"></center>
+  <p>The budgerigar has been bred in captivity since the 1850s. Breeders have worked to produce a variety of colour, pattern and feather mutations, including albino, blue, cinnamon-ino (lacewinged), clearwinged, crested, dark, greywinged, opaline, pieds, spangled, dilute (suffused) and violet. </p>
+  <p>"English budgerigars", more correctly called "show" or "exhibition budgerigars", are about twice as large as their wild counterparts and have puffier head feathers, giving them a boldly exaggerated look. The eyes and beak can be almost totally obscured by these fluffy head feathers. English budgerigars are typically more expensive than wild-type birds, and have a shorter life span of about seven to nine years. Breeders of English budgerigars show their birds at animal shows. Most captive budgerigars in the pet trade are more similar in size and body conformation to wild budgerigars.</p>
+  <p>Budgerigars are social animals and require stimulation in the shape of toys and interaction with humans or with other budgerigars. Budgerigars, and especially females, will chew material such as wood. When a budgerigar feels threatened, it will try to perch as high as possible and to bring its feathers close against its body in order to appear thinner. </p>
+  <p>Tame budgerigars can be taught to speak, whistle and play with humans. Both males and females sing and can learn to mimic sounds and words and do simple tricks, but singing and mimicry are more pronounced and better perfected in males. Females rarely learn to mimic more than a dozen words. Males can easily acquire vocabularies ranging from a few dozen to a hundred words. Pet males, especially those kept alone, are generally the best speakers.</p>
+  <p>Budgerigars will chew on anything they can find to keep their beaks trimmed. Mineral blocks (ideally enriched with iodine), cuttlebone and soft wooden pieces are suitable for this activity. Cuttlebones also supply calcium, essential for the proper forming of eggs and bone solidity. In captivity, budgerigars live an average of five to eight years, but life spans of 15-20 years have been reported. The life span depends on breed, lineage, and health, being highly influenced by exercise and diet. Budgerigars have been known to cause "bird fancier's lung" in sensitive people, a type of hypersensitivity pneumonitis.Apart from a handful of illnesses, diseases of the species are not transmittable to humans.</p>
+<img src="C:\Users\Hp\Downloads\gold14.JPG" style="width:30%" "height=30%" align="right">
+</div>
+<br>
+<p></p>
+
+<button type="button" class="collapsible"><b>MIMICRY</b></button>
+<div class="content">
+<center>  <img src="C:\Users\Hp\Downloads\gold13.JPG" style="width:50%" "height=70%"></center>
+  <p>Male specimens of budgerigars are considered to be one of the top five talking champions amongst parrot species, alongside the grey parrot, the amazon and the eclectus parrots, and the ring-necked parakeet.</p>
+<p>Puck, a male budgerigar owned by American Camille Jordan, holds the world record for the largest vocabulary of any bird, at 1,728 words. Puck died in 1994, with the record first appearing in the 1995 edition of Guinness World Records.</p>
+<p>In 2001, recordings of a budgerigar called Victor got some attention from the media. Victor's owner, Ryan B. Reynolds of Canada, stated Victor was able to engage in contextual conversation and predict the future.  Although some believe the animal was able to predict his own death as was claimed, further study on the subject is difficult without the bird. The recordings still remain to be verified by scientific analysis. Critics argue Victor's speech in the recordings is not coherent enough to be determined as spoken in context. </p>
+<p>Pet budgies have continued to make headlines all over the world for their mimicry, talking ability and charm. One budgie, named Disco, became an internet superstar. As of 2019, Disco had been viewed over 18,814,276 times on his YouTube channel. Some of Disco's most popular key phrases included, "I am not a crook" and "Nobody puts baby bird in a corner!". Disco died in 2017 due to an unknown illness. </p>
+<h4>in popular cuture</h4>
+<p>Small bathing suits for men, commonly referred to as togs or "Speedos", are informally called "budgie smugglers" in Australia. The phrase is humorously based on the appearance of the tight-fitting cloth around the male's genitals looking like a small budgie. The phrase was officially added to the Oxford English Dictionary in 2016.</p>
+<img src="C:\Users\Hp\Downloads\gold14.JPG" style="width:30%" "height=30%" align="right">
+</div>
+<br>
+<p></p>
+
+
+
+<video width="520" height="240" controls>
+  <source src="C:\Users\Hp\Downloads\Watch Chhichhore - Hotstar.mp4" type="video/mp4">
+  <source src="/assets_tutorials/media/Shaun-the-Sheep-The-Movie-Official-Trailer.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video>
+</div>
+<br>
+<p></p>
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>

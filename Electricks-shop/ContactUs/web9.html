@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding ="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD//XHTML 1.1//EN" "http://www.w3.org/TR/DTD/xhtml11,dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Names</title>
+	<script>
+        function e_names(){
+		line=prompt("enter the  names (give a space after each name)");
+		var names=line.split(" ");
+		var count=0;
+		for (var i = 0; i < names.length; i++) {
+			var num=names[i].search("ie$|y$")
+			if(num>0){
+				count=count+1;
+			}
+		}
+		return count;	
+ 		}
+ </script>
+</head>
+<body>
+	<script type="text/javascript">
+		count=e_names();
+		document.write("the total number of names which ends with either 'ie' or 'y' is: "+count);
+	</script>s
+</body>
+</html>

@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h2{
+  border: 2px solid black;
+  outline: #4CAF50 solid 10px;
+  margin: auto;  
+  padding: 20px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<h2>Poodle</h2>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>poodle</title>
+    <style>
+      * {box-sizing: border-box}
+      body {
+      font-family: Verdana, sans-serif; 
+      margin:0
+      }
+      .mySlides {display: none}
+      img {vertical-align: left;}
+      .slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      margin: auto;
+      }
+      /* Next & previous buttons */
+      .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.9s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+      }
+      /* Position the "next button" to the right */
+      .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+      }
+      /* On hover, add a black background color with a little bit see-through */
+      .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0.8);
+      }
+      /* Caption text */
+      .text {
+      color: #ffffff;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 40%;
+      text-align: center;
+      }
+      /* Number text (1/3 etc) */
+      .numbertext {
+      color: #ffffff;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+      }
+      /* The dots/bullets/indicators */
+      .dot {
+      cursor: pointer;
+      height: 4px;
+      width: 4px;
+      margin: 0 2px;
+      background-color: #999999;
+      border-radius: 60%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+      }
+      .active, .dot:hover {
+      background-color: #111111;
+      }
+      /* Fading animation */
+      .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 3.5s;
+      animation-name: fade;
+      animation-duration: 3.5s;
+      }
+      @-webkit-keyframes fade {
+      from {opacity: .3} 
+      to {opacity: 1}
+      }
+      @keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+      }
+      /* On smaller screens, decrease text size */
+      @media only screen and (max-width: 100px) {
+      .prev, .next,.text {font-size: 11px}
+      }
+    </style>
+  </head>
+  <body>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+      <center>  <img src="C:\Users\Hp\Downloads\gold2.JPG" style="width:60%" "height=80%"></center>
+        <div class="text">..............Puppies</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+    <center> <img src="C:\Users\Hp\Downloads\gold4.JPG" style="width:60%" "height=80%"> </center>
+        <div class="text">.......................................middle-aged golden dark retriver</div> 
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+      <center> <img src="C:\Users\Hp\Downloads\gold8.gif" style="width:60%" "height=80%"></center>
+        <div class="text">....................................will not harm other breads!</div>
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+    <script>
+      var slideIndex = 0;
+      showSlides();
+      
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none"; 
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1} 
+        slides[slideIndex-1].style.display = "block"; 
+        setTimeout(showSlides, 4000); 
+      }
+
+    </script>
+  </body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.center {
+  margin: auto;
+  width: 60%;
+  border: 0px solid #73AD21;
+  padding: 10px;
+}
+</style>
+</head>
+<body>
+
+
+<div class="center">
+  <p><b>The Poodle</b> is a formal dog breed that comes in three varieties: Standard Poodle, Miniature Poodle, and Toy Poodle. The origin of the breed is still discussed, with a prominent dispute over whether the poodle descends from Germany as a type of water dog, or from the French Barbet</p>
+  
+<p>For the political insult, see Poodle (insult). For the security vulnerability, see POODLE. For the archaeological site in Peru, see Kanichi, Peru.</p><p>
+Ranked second most intelligent dog breed just behind the Border Collie,[6] the poodle is skillful in many dog sports and activities, including agility, obedience, tracking, herding, circus performance, and assistance dogs. Poodles have taken top honors in many conformation shows, including "Best in Show" at the Westminster Kennel Club Dog Show in 1991, 2002, and 2020 and at the World Dog Show in 2007 and 2010. They are recorded as the seventh most popular dog breed in the United State. </p><p>Toy Poodles won "Best in Show" at Crufts in 1966 and 1982. Standard Poodles achieved the award in 1955, 1985, 2002, and 2014. The 2002 winner came from Norway and was the first overseas exhibit to win the Crufts best in show award.</p>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 40%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<table align="right">
+  <tr>
+    <th colspan="3"> Traits</th>
+
+  </tr>
+  <tr>
+    <th>Life span</th>
+    <td>Male and female</td>
+    <td>10-12</td>
+  </tr>
+  <tr>
+    <th colspan="2">other names</th>
+    <td>Pudelhund Caniche</td>
+  </tr>
+ <tr>
+    <th>common nicknames</th>
+    <td colspan="2">poodle</td>
+    
+  </tr>
+  <tr>
+    <th>origin</th>
+    
+    <td colspan="2">France AND Germany</td>
+  </tr>
+<span><img src="C:\Users\Hp\Downloads\original.gif" alt="" title="" id="wows1"/></span>
+</table>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.collapsible {
+  background-color: #2F4F4F;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #228B22;
+  }
+.center {
+  margin: auto;
+  width: 60%;
+  border: 0px solid #F5FFFA;
+  padding: 10px;
+}
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #F5FFFA;
+}
+</style>
+</head>
+<body>
+
+
+<div class="center">
+<p>tap the subject you wish to see</p> 
+<button type="button" class="collapsible"><b>DESCRIPTION</b></button>
+<div class="content">
+<center><img src="C:\Users\Hp\Downloads\golds\colorgold1.PNG" style="width:60%" "height=20%" ></center>
+
+  <p>The poodle is an active, intelligent and elegant dog, squarely built, and well proportioned. To ensure the desirable squarely built appearance, the length of body measured from the breastbone to the point of the rump approximates the height from the highest point of the shoulders to the ground. The eyes should be very dark, oval in shape, and have an alert and intelligent expression. The ears should fold over close to the head, set at, or slightly below, eye level. The coat should be of naturally curly texture, dense throughout, although most AKC-registered show dogs have a continental cut or other, similarly shaven look. The sizes of the official AKC-recognized Poodle breeds are determined by height, not by weight. </p>
+<img src="C:\Users\Hp\Downloads\gold5.JPG" style="width:60%" "height=40%" align="right">
+
+<p>Poodles are bred in a variety of sizes, distinguished by adult shoulder (withers) height. The exact height cutoffs among the varieties vary slightly from country to country. The Fédération Cynologique Internationale (FCI) recognizes four sizes of one breed: standard, medium, miniature, and toy. Non-FCI kennel clubs generally recognize three sizes, standard, miniature, and toy, sometimes as sizes of the same breed and sometimes as separate breeds. Only the FCI describes a maximum size for Standard Poodles. France is the country responsible for the breed in the FCI, and in this country, the puppies of all sizes are listed together. The terms royal standard, teacup, and tiny teacup are marketing names, and are not recognized by any major kennel club.</p>
+</div>
+<br>
+<p></p>
+<button type="button" class="collapsible"><b>TEMPERMENT</b></button>
+<div class="content">
+  <center>  <img src="C:\Users\Hp\Downloads\gold9.JPG" style="width:50%" "height=70%"></center>
+  <p>Poodles are known as a highly intelligent, energetic, and sociable breed. They require both physical and intellectual activities. A typical poodle should be reserved and a little aloof with strangers upon first introduction, but after a while should slowly reveal a warm and personable disposition once the dog realizes the new person is trustworthy and means no harm. Snappy, vicious behavior is considered a serious fault in the breed.] Though not suitable for being a guard dog because it is not a territorial breed nor particularly aggressive, poodles who are well loved and cared for will reciprocate with devotion and loyalty: a dog of this breed is normally quiet and calm, but if it is totally sure danger is near, it quickly becomes very protective of master, master's spouse, and master's children.</p><p>
+Poodles are highly trainable dogs that typically excel in obedience training. A poodle will do well at many dog sports, including dog agility, flyball, dock diving, dog surfing,] field tracking, disc dog,and for the largest sized poodles even schutzhund.They will enjoy hiking and camping trips with their masters or families. Their background as duck dogs means centuries of instinctive attraction to water and thus they can go on any trip involving swimming, whether in the sea, at the lake, or even whitewater up to class III for the Standard, though a lifejacket is paramount for all of the above. However, all individual dogs, even from breeds who are talented swimmers like the Chesapeake Bay Retriever or the Portuguese Water Dog, require a gentle introduction to water before they are comfortable in it and will not start swimming readily as young puppies. Poodles are no different and must learn that water is fun and a place to play first. </p><p>
+Of the size varieties, Standard Poodles are the most highly recommended for families with children. Because of the haircuts popular in the show ring and their history of being dogs of the middle and upper classes for so long, the Standard Poodle has been stereotyped as an effete and frou-frou dog. Presuming that stereotype is true where children and teenagers are concerned is a grave mistake because the truth is that a Standard Poodle will rejoice at the opportunity to bounce around, even roughhouse in the dirt.] They have a merry, kindly demeanor and they adore playing games that spark their interest in physical and social stimulation. For example, with school age children and teenagers they will be absolutely delighted at the prospect of playing hide and seek. The Standard would be very happy playing baseball or tennis with kids and teenagers, because that means catching wayward balls in their mouths and hours of fun. They would be happy to run alongside a teenager on a skateboard in autumn, to slide down the hill on a sled in winter with younger children, or to jump in the swimming pool in summertime to chase after diving rings or to splash with the kids so long as they have been taught how to use the stairs to get out and water safety skills for dogs</P><p> 
+<img src="C:\Users\Hp\Downloads\gold10.JPG" style="width:30%" "height=45%" align="left"><p>
+As with all dogs and babies, introductions should be gradual, though most Standards will tolerate a baby and learn to be gentle and will respect toddlers so long as the child is supervised. A Standard Poodle will be fine in a family with many children provided the environment is stable, orderly, and relaxed, with enough room for the dog to go out and retire somewhere quiet if needed. Miniature and Toy varieties tend to have less patience with young children and might find certain children's antics too much to handle, especially because young children are much larger than they are and may attempt to grab them without understanding how their attempt to hug the pooch is terrifying to a small dog. They are likely to bite out of fear and thus are better suited to homes with teenagers or older children.Poodles dislike being left alone or left out of the family fun and some get anxious at being left in the house alone, but sign of nervousness or neurosis is atypical and not how a poodle of any size is meant to behave. Miniature and Toy Poodles must not be treated like babies and be picked up and carried around constantly and never put on a leash to walk: they will start to believe they are in charge and that they do not owe anyone good behavior and they become very spoiled and uncontrollable.</p>
+</div>
+<br>
+<p></p>
+<button type="button" class="collapsible"><b>HEALTH</b></button>
+<div class="content">
+  <p>The most common serious health issues of Standard Poodles listed in order of the number of reported cases in the Poodle Health Registry (20 August 2007) are Addison's disease, gastric dilatation volvulus, thyroid issues (hyperthyroid and hypothyroid), tracheal collapse, epilepsy, sebaceous adenitis, juvenile renal disease, hip dysplasia, and cancer. Standard Poodles are also susceptible to some health issues usually too minor to report to the health registry. The most common of these minor issues is probably ear infection. Ear infections are a problem in all poodle varieties because their nonshedding coat grows into the ear canal, where it traps wax and dirt. Ear problems can be minimized by proper ear care, including regular cleaning and plucking of hair within the ear canal. A veterinarian should be consulted if the dog shows signs of an ear infection.  </p><p>
+Standard Poodles in UK, Denmark and USA/Canada surveys had a median lifespan of 11.5 to 12 years. In a UK survey, the most common causes of death were cancer (30%), old age (18%), GDV (6%), and cardiac disease (5%).] </p>
+<p>Miniature and Toy Poodles in UK surveys had median lifespans of 14 to 14.5 years. In Miniatures, the leading cause of death was old age (39%). In Toys, the leading causes of death were old age (25%), and kidney failure (20%)</p>
+<h4>Addison's disease</h4><p>
+Addison's disease is (as of 20 August 2007) the illness most commonly reported to the Poodle Health Registry. The number of reported cases is nearly twice as high as the next most common problem (GDV). Addison's disease is characterized by insufficient production of glucocorticoid and/or mineralocortoid in the adrenal cortex (near the kidneys). Addison's is often undiagnosed because early symptoms are vague and easily mistaken for other conditions. Standard Poodles with unexplained lethargy, frequent gastric disturbances, or an inability to tolerate stress should be tested for it. Addison's can cause fatal sodium/potassium imbalances, but if caught early and treated with lifelong medication, most dogs can live a relatively normal life.</p>
+<h4>Gastric dilatation volvulus</h4> 
+<p>There is a high incidence of gastric dilatation volvulus (GDV) in this breed, which occurs when twisting of the stomach (volvulus or torsion) causes or is caused by excess gas. Symptoms include restlessness, inability to get comfortable, pacing, or retching without being able to bring up anything. The dog's abdomen may be visibly swollen, but bloat or torsion can occur without visible swelling. A dog with GDV requires immediate veterinary care. The dog's survival usually depends on whether the owner can get to a veterinarian in time.[citation needed] GDV risk is increased with faster eating and a raised feeding bowl.</p>
+<h4>Reproduction</h4> </p>
+Breed size is correlated with litter size and Standard Poodles have the highest litter size followed by Medium, Miniature, and Toy. Toy Poodles have one of the smallest litter size of all breeds. The stillborn rate and early neonatal mortality (death within 1 week from birth) in poodles are lower than the average across all breeds.</p> 
+
+<img src="C:\Users\Hp\Downloads\gold12.JPG" style="width:50%" "height=55%" align="left">
+</div>
+<br>
+<p></p>
+
+<button type="button" class="collapsible"><b>CLIPS AND GROOMING</b></button>
+<div class="content">
+<center>  <img src="C:\Users\Hp\Downloads\gold13.JPG" style="width:50%" "height=70%"></center>
+  <p>Generally, poodles do not have a double coat like certain other breeds, but rather have a hair shaft shaped in an unusual way that makes the hair on their bodies curl and kink in on itself; this will not stop growing unless it is clipped or cut, and neglecting to care for this breed's coat over long periods can have dangerous consequences that can make the dog quite ill from matting and skin infections. </p>
+ <p>
+Poodles of all sizes intended to be show dogs are required to have a show clip of the choosing of the kennel club to which their owners belong. Many breed registries allow only certain clips for poodles shown in conformation. In American Kennel Club (AKC) shows, adults must be shown in the "Continental" or "English saddle" clips. Dogs under 12 months old may be shown with a "puppy clip." The AKC allows the "Sporting" clip in Stud Dog and Brood Bitch classes, as well.[citation needed] As to where any of these clips originated, such is in dispute: Some sources believe the show clips evolved from working clips, which originally provided warmth to major joints when the dogs were immersed in cold water. The rest of the body is shaved for less drag in the water. Others express skepticism at this theory, instead citing the French circus as the origin of the entertaining and unique clips </p>
+<p>
+The second puppy clip is also called the Scandinavian clip or puppy clip. It was invented by Swedish and Norwegian show groomers in the 1970s. It is the most common one in all sizes for shows in Europe, and is allowed for adult poodles to be shown in the FCI countries. The face, throat, belly, feet and the base of the tail are shaved five to seven days before the show to get a nice, smooth appearance of the shaved areas. The hair on the head is left to form a "topknot", fixed in place using latex bands, because in most European countries, hair spray is banned. The rest of the dog is shaped with scissors.[citation needed] Poodles in Europe tend not to dock the tail of the breed at puppyhood, whereas in North America this is a matter left to the discretion of the owner. </p>
+
+ <p>
+The English saddle clip is similar to the continental, except for the hindquarters, which are not shaved except for a small, curved area on each flank (just behind the body), the feet, and bands just below the stifle (knee) and above the hock, leaving four (4) pompons. This clip is now rarely seen in standard poodles</p><p>Pet clips can be as simple or as elaborate as owners wish. The hair under the tail should always be kept short to keep feces from matting in the dog's curls. Most owners also keep the feet and face clipped short to prevent dirt from matting between toes, tear stains on lighter-coated poodles and food from matting around the dog's muzzle. Beyond these sanitary requirements, desired clips depend on owners' preferences. Some owners maintain a longer clip in winter than summer.  </p><p>Modern hunters do not normally use any of the elaborate show clips and just require a very simple cut with electric clippers an inch and a half off the skin and the face shaven close to the skin so the dog can see clearly. The feet are kept as hairless as possible to aid the dog in swimming and so that when the dog is commanded to run hard, it has the necessary traction to bolt after the waterfowl or pheasant that has been shot. Burrs are usually removed after the hunt with patience and a pair of scissors, and some hunters use cooking spray to help the burrs and thorns slip off more easily after the hunt is complete, especially upland bird hunting. Caked-on mud and swamp debris can be easily removed with a garden hose and a mild soap, and ears must be carefully inspected after each outing and cleaned if needed. </p> 
+</h4>Corded coat</h4> <p>
+In most cases, whether a poodle is in a pet or show clip, the hair is completely brushed out. Poodle hair can also be "corded" with rope-like mats similar to those of a Komondor or human dreadlocks. Though once as common as the curly poodle, corded poodles are now rare. Corded coats are difficult to keep clean and take a long time to dry after washing. Any poodle with a normal coat can be corded when its adult coat is in. Corded poodles may be shown in all major kennel club shows.</p>
+
+</div>
+<br>
+<p></p>
+
+
+
+<button type="button" class="collapsible"><b>IN COMPETATION</b></button>
+<div class="content">
+<center>  <img src="C:\Users\Hp\Downloads\gold17.JPG" style="width:50%" "height=70%"></center>
+  <p>Poodles are one of the most recognizable dogs in all of dogdom and have been depicted as subjects in portraiture, photography, and prints for centuries. They have been show competitors at kennel clubs since the invention of such institutions in the second half of the 19th century. At Crufts, the Standard Poodle ties the Irish Setter and the Welsh Terrier for second most wins at Best In Show, with 4 wins.  At the Westminster Dog Show in the USA, the breed has won a total of 10 times, with half being Standard Poodles and the most recent win in 2020.  </P><p>Having returned to the hunt after a long absence, Standard Poodles have been winning titles against the more widely used native breeds like the Chesapeake Bay Retriever, Nova Scotia Duck Tolling Retriever, American Water Spaniel and Labrador Retriever.  Thus far 13 Standard Poodles have won Master Hunt titles (12 in the United States, 1 in Canada) and several more have won senior and junior titles on both sides of the border. Currently only the United Kennel Club in the US recognizes the Standard Poodle as a Sporting dog, thus in spite of this subtype of poodle being ineligible for field competitions more and more are appearing in the field as waterfowl dogs and hunters of pheasant in tall grass, the latter especially in the Midwest.</p>
+<img src="C:\Users\Hp\Downloads\gold19.JPG" style="width:50%" "height=55%">
+</div>
+<br>
+<p></p>
+
+<button type="button" class="collapsible"><b>ORIGIN AND HISTORY</b></button>
+<div class="content">
+<center>  <img src="C:\Users\Hp\Downloads\gold21.JPG" style="width:50%" "height=70%"></center>
+  <p>The poodle is a breed that has been present in Europe for centuries in some form or another, and it first debuted on the Continent long before heading to the British Isles let alone North America or East Asia or Australia. Drawings by German artist Albrecht Dürer established the popular image of the breed in the 15th and 16th centuries. Further appearances in art are recorded by Rembrandt in a self portrait he created in 1631, with his pet poodle in the foreground. The breed would not have been a dog of the common man, but of the wealthier gentleman or royalty, evidenced by its role as a water spaniel and retriever from early on: these were not the pursuits of peasants and farmers </p><p>
+It was the principal pet dog of the late 18th century in Spain, as shown by the paintings of the Spanish artist Francisco Goya. France had toy poodles as pampered favorites during the reign of Louis XVI at about the same period, and there are definite records of them being present at Versailles even before Goya was active: Louis XVI's grandfather is recorded as having a favorite dog named Filou, a poodle, and there is potential evidence the Sun King kept them as well </p><p>
+The Fédération Cynologique Internationale, the international organization of which both France and Germany's main kennel clubs are members, claims the breed descends from the French Barbet. When the breed was officially recognized by the FCI, in order to avoid any possible dispute between two founding members, Germany recognized the Poodle as a dog originating from France. The progenitor of the breed might have also been crossed with the Hungarian Puli. The French name Caniche comes from the word cane (the female of the duck) since this type of breed was used as a water retriever mainly for duck hunting thanks to its swimming ability.  </p><p>
+The British Kennel Club states that the breed originates in Germany,  as do the American Kennel Club and the Canadian Kennel Club, stating: "Despite the Poodle’s association with France, the breed originated as a duck hunter in Germany..." The Oxford English Dictionary and the American Heritage Dictionary both trace the etymology of Poodle to the German Pudel, which itself comes from Pudelhund. The word Pudel in turn comes from Low German pud(d)eln meaning "[to] splash in water," cognate with the English word puddle.  </p>
+<p>The poodle has contributed to many other dog breeds, such as the Miniature Schnauzer,  Standard Schnauzer,  and dogs of the Bichon type in order to either save those breeds from extinction, reduce size, or by dog fanciers to improve their appearance. The Poodle also is believed to be an ancestor or potential ancestor of the Irish Water Spaniel , the Curly Coated Retriever, and the Pudelpointer , all of which are hunters of birds. </p>
+<video width="520" height="240" controls>
+  <source src="C:\Users\Hp\Downloads\Watch Chhichhore - Hotstar.mp4" type="video/mp4">
+  <source src="/assets_tutorials/media/Shaun-the-Sheep-The-Movie-Official-Trailer.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video>
+</div>
+<br>
+<p></p>
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>

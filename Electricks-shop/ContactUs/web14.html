@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding ="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD//XHTML 1.1//EN" "http://www.w3.org/TR/DTD/xhtml11,dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>reverse</title>
+	<script type="text/javascript">
+		function reverser(){
+			var num=prompt("enter the number to be reversed");
+			if(num>0){
+				var num1=num;
+				var res=0
+				var temp;
+				while(num>0){
+					temp=num%10;
+					res=res*10+temp;
+					num=Math.trunc(num/10);
+				}
+				alert("the reverse of "+num1+" is : "+res);}
+	}
+	</script>
+</head>
+<body>
+    <script type="text/javascript">
+		reverser();
+	</script>
+
+</body>
+</html>
